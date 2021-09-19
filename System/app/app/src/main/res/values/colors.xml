@@ -3,11 +3,4 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="cardio_color1">#0bf5fc</color>
-    <color name="cardio_color2">#5396c1</color>
-    <color name="cardio_color3">#be6b03</color>
-    <color name="cardio_bg_color">#edf2f6</color>
-    <color name="black">#000000</color>
-    <color name="red">#ff0000</color>
-    <color name="green">#33ff00</color>
 </resources>
