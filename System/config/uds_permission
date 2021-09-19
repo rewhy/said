@@ -1,0 +1,214 @@
+10 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:1
+10 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+10 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+10 conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+10 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+10 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+10 conditions:1 2,(1,1,0x03) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+10 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(3,1,0) decision:2
+10 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+10 conditions:1 2,(1,1,0x04) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+10 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(3,1,0) decision:2
+10 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+11 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+11 conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+11 conditions:1 2,(1,1,0x03) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+11 conditions:1 2,(1,1,0x04) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+11 conditions:1 2,(1,1,0x05) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x05) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+11 conditions:1 2,(1,1,0x05) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+27 conditions:1 2,(9,2,0x01,0x41) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+27 conditions:1 2,(9,2,0x01,0x41) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+27 conditions:1 2,(9,2,0x01,0x41) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+27 conditions:1 2,(10,2,0x02,0x42) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+27 conditions:1 2,(10,2,0x02,0x42) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+27 conditions:1 2,(10,2,0x02,0x42) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+27 conditions:1 2,(1,1,0x5F) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+27 conditions:1 2,(1,1,0x5F) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+27 conditions:1 2,(1,1,0x5F) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+27 conditions:1 2,(1,1,0x60) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+27 conditions:1 2,(1,1,0x60) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+27 conditions:1 2,(1,1,0x60) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+28 conditions:1 2,(1,1,0x00) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x00) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x00) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+28 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+28 conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+28 conditions:1 2,(1,1,0x03) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+28 conditions:1 2,(1,1,0x04) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+28 conditions:1 2,(1,1,0x05) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x05) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+28 conditions:1 2,(1,1,0x05) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+3E conditions:1 2,(1,1,0x00) states:2 1,(3,1,0) 2,(3,1,0) decision:1
+3E conditions:1 2,(1,1,0x00) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+3E conditions:1 2,(1,1,0x00) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+83 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+83 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+83 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+83 conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+83 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+83 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+83 conditions:1 2,(1,1,0x03) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+83 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+83 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+83 conditions:1 2,(1,1,0x04) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+83 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+83 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+84 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:0
+84 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:0
+84 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+85 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+85 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+85 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+85 conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+85 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+85 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+86 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:0
+86 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:0
+86 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:0
+87 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+87 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+87 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+87 conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+87 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+87 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+87 conditions:1 2,(1,1,0x03) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+87 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+87 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+22 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:2
+22 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:1
+22 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:1
+23 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:2
+23 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:1
+23 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:1
+24 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:2
+24 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:1
+24 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:1
+2A conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:2
+2A conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:1
+2A conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:1
+2C conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+2C conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+2C conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+2C conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+2C conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+2C conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+2C conditions:1 2,(1,1,0x03) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+2C conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+2C conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+2E conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:0
+2E conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:0
+2E conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+3D conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:0
+3D conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:0
+3D conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+14 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:0
+14 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:0
+14 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+19 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x03) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x04) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x04) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x05) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x05) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x05) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x06) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x06) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x06) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x07) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x07) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x07) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x08) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x08) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x08) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x09) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x09) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x09) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x10) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x10) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x10) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x11) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x11) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x11) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x12) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x12) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x12) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x13) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x13) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x13) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x14) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x14) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x14) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x15) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x15) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x15) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x16) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x16) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x16) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x17) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x17) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x17) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x18) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x18) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x18) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x19) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x19) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x19) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x42) states:2 1,(3,1,0) 2,(3,1,0) decision:2
+19 conditions:1 2,(1,1,0x42) states:2 1,(1,1,0) 2,(3,1,0) decision:1
+19 conditions:1 2,(1,1,0x42) states:2 1,(1,1,0) 2,(1,1,0) decision:1
+19 conditions:1 2,(1,1,0x55) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+19 conditions:1 2,(1,1,0x55) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+19 conditions:1 2,(1,1,0x55) states:2 1,(1,1,0) 2,(1,1,0) decision:0
+2F conditions:2 2,(1,1,0x02) 3,(1,1,0x4D) states:2 1,(3,1,10) 2,(3,1,0) decision:0
+2F conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:2
+2F conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:2
+2F conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+31 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+31 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+31 conditions:1 2,(1,1,0x01) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+31 conditions:1 2,(1,1,0x02) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+31 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+31 conditions:1 2,(1,1,0x02) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+31 conditions:1 2,(1,1,0x03) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+31 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(3,1,0) decision:0
+31 conditions:1 2,(1,1,0x03) states:2 1,(1,1,0) 2,(1,1,0) decision:2
+34 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:0
+34 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:0
+34 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+35 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:0
+35 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:0
+35 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+36 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:2
+36 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:2
+36 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+37 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:2
+37 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:2
+37 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2
+38 conditions:0 states:2 1,(3,1,0) 2,(3,1,0) decision:2
+38 conditions:0 states:2 1,(1,1,0) 2,(3,1,0) decision:2
+38 conditions:0 states:2 1,(1,1,0) 2,(1,1,0) decision:2

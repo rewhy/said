@@ -1,0 +1,895 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABSOLUTE_BAROMETRIC_PRESSURE	portContext.h	/^	ABSOLUTE_BAROMETRIC_PRESSURE,$/;"	e	enum:__anon14
+ACC_DATA_CONVERSION	onboard.h	16;"	d
+ACC_DATA_NAME	onboard.h	10;"	d
+ACC_SYSFS_ENABLE	onboard.h	9;"	d
+ACTION_ATTACK_MODE	utils.h	16;"	d
+APP_ABI	Application.mk	/^APP_ABI := all$/;"	m
+APP_ALLOW_MISSING_DEPS	Android.mk	/^APP_ALLOW_MISSING_DEPS=true$/;"	m
+AUXILIARY_INPUT_STATUS	portContext.h	/^	AUXILIARY_INPUT_STATUS,$/;"	e	enum:__anon14
+BREAK_IF_NOT_CONTEXT	canitf.h	45;"	d
+BUFFLEN	udp.cpp	35;"	d	file:
+BYTE	utils.h	/^typedef unsigned char BYTE;$/;"	t
+C	libsvm/svm.h	/^	double C;	\/* for C_SVC, EPSILON_SVR and NU_SVR *\/$/;"	m	struct:svm_parameter
+CALCULATED_ENGINE_LOAD	portContext.h	/^	CALCULATED_ENGINE_LOAD,$/;"	e	enum:__anon14
+CANBOX_H_	obdPort.h	3;"	d
+CAN_SESSION_IDLE	obdPort.h	/^	CAN_SESSION_IDLE  = 0,   \/* There is no CAN session *\/$/;"	e	enum:__anon12
+CAN_SESSION_PORT0	obdPort.h	/^	CAN_SESSION_PORT0 = 1,   \/* CAN0 maintains the session *\/$/;"	e	enum:__anon12
+CAN_SESSION_PORT1	obdPort.h	/^	CAN_SESSION_PORT1 = 2    \/* CAN1 maittains the session *\/$/;"	e	enum:__anon12
+CAN_STATE_BOND	obdPort.h	/^	CAN_STATE_BOND		= 1,				\/\/ The port is already bond with CAN socket$/;"	e	enum:__anon10
+CAN_STATE_IDLE	obdPort.h	/^	CAN_STATE_IDLE		= 2,				\/\/ The port is in idle state (neither sniffering nor session)$/;"	e	enum:__anon10
+CAN_STATE_SESSION	obdPort.h	/^	CAN_STATE_SESSION	= 4					\/\/ The port mantains a session with a in-vehicle system$/;"	e	enum:__anon10
+CAN_STATE_SNIFF	obdPort.h	/^	CAN_STATE_SNIFF		= 3,				\/\/ The port is in sniffing state (just monirting frames)$/;"	e	enum:__anon10
+CAN_STATE_WILD	obdPort.h	/^	CAN_STATE_WILD		= 0,				\/\/ The port is not initialized$/;"	e	enum:__anon10
+CATALYS_TEMPERATURE_BANK1_SENSOR1	portContext.h	/^	CATALYS_TEMPERATURE_BANK1_SENSOR1,	\/\/ 0x3C$/;"	e	enum:__anon14
+CATALYS_TEMPERATURE_BANK1_SENSOR2	portContext.h	/^	CATALYS_TEMPERATURE_BANK1_SENSOR2,$/;"	e	enum:__anon14
+CATALYS_TEMPERATURE_BANK2_SENSOR1	portContext.h	/^	CATALYS_TEMPERATURE_BANK2_SENSOR1,$/;"	e	enum:__anon14
+CATALYS_TEMPERATURE_BANK2_SENSOR2	portContext.h	/^	CATALYS_TEMPERATURE_BANK2_SENSOR2,$/;"	e	enum:__anon14
+CHECK_EXIT_BREAK	canitf.h	57;"	d
+CHECK_EXIT_RETURN	canitf.h	61;"	d
+CMD_ACTION_BRAKELAMP	clientCom.h	/^	CMD_ACTION_BRAKELAMP    = 0x33,$/;"	e	enum:__anon6
+CMD_ACTION_CENTRALLOCKLIGHT	clientCom.h	/^	CMD_ACTION_CENTRALLOCKLIGHT  = 0x34,$/;"	e	enum:__anon6
+CMD_ACTION_CLOSE_RVM	clientCom.h	/^	CMD_ACTION_CLOSE_RVM	= 0x26,$/;"	e	enum:__anon6
+CMD_ACTION_CLOSE_WINDOW	clientCom.h	/^	CMD_ACTION_CLOSE_WINDOW	= 0x25,$/;"	e	enum:__anon6
+CMD_ACTION_DIPPED_LIGHT	clientCom.h	/^	CMD_ACTION_DIPPED_LIGHT = 0x28,$/;"	e	enum:__anon6
+CMD_ACTION_DOME_COLCK	clientCom.h	/^	CMD_ACTION_DOME_COLCK   = 0x36,$/;"	e	enum:__anon6
+CMD_ACTION_FOGLIGHT	clientCom.h	/^	CMD_ACTION_FOGLIGHT     = 0x31,$/;"	e	enum:__anon6
+CMD_ACTION_FRONTDRIVERS_CLOSEWINDOW	clientCom.h	/^	CMD_ACTION_FRONTDRIVERS_CLOSEWINDOW = 0x39,$/;"	e	enum:__anon6
+CMD_ACTION_FRONTDRIVERS_OPENWINDOW	clientCom.h	/^	CMD_ACTION_FRONTDRIVERS_OPENWINDOW = 0x40,$/;"	e	enum:__anon6
+CMD_ACTION_FRONTPASSENGER_CLOSEWINDOW	clientCom.h	/^	CMD_ACTION_FRONTPASSENGER_CLOSEWINDOW = 0x43,$/;"	e	enum:__anon6
+CMD_ACTION_FRONTPASSENGER_OPENWINDOW	clientCom.h	/^	CMD_ACTION_FRONTPASSENGER_OPENWINDOW = 0x44,$/;"	e	enum:__anon6
+CMD_ACTION_HIGH_BEAM	clientCom.h	/^	CMD_ACTION_HIGH_BEAM    = 0x29,$/;"	e	enum:__anon6
+CMD_ACTION_HORN	clientCom.h	/^	CMD_ACTION_HORN			= 0x21,$/;"	e	enum:__anon6
+CMD_ACTION_INDICATORLIGHT	clientCom.h	/^	CMD_ACTION_INDICATORLIGHT = 0x48$/;"	e	enum:__anon6
+CMD_ACTION_LIGHTING	clientCom.h	/^	CMD_ACTION_LIGHTING = 0x47,$/;"	e	enum:__anon6
+CMD_ACTION_LOCK	clientCom.h	/^	CMD_ACTION_LOCK			= 0x23,$/;"	e	enum:__anon6
+CMD_ACTION_OPEN_RVM	clientCom.h	/^	CMD_ACTION_OPEN_RVM	 	= 0x27,$/;"	e	enum:__anon6
+CMD_ACTION_OPEN_WINDOW	clientCom.h	/^	CMD_ACTION_OPEN_WINDOW  = 0x24,$/;"	e	enum:__anon6
+CMD_ACTION_REARDRIVERS_CLOSEWINDOW	clientCom.h	/^	CMD_ACTION_REARDRIVERS_CLOSEWINDOW = 0x41,$/;"	e	enum:__anon6
+CMD_ACTION_REARDRIVERS_OPENWINDOW	clientCom.h	/^	CMD_ACTION_REARDRIVERS_OPENWINDOW = 0x42,$/;"	e	enum:__anon6
+CMD_ACTION_REARFOGLAMP	clientCom.h	/^	CMD_ACTION_REARFOGLAMP  = 0x32,$/;"	e	enum:__anon6
+CMD_ACTION_REARPASSENGER_CLOSEWINDOW	clientCom.h	/^	CMD_ACTION_REARPASSENGER_CLOSEWINDOW = 0x45,$/;"	e	enum:__anon6
+CMD_ACTION_REARPASSENGER_OPENWINDOW	clientCom.h	/^	CMD_ACTION_REARPASSENGER_OPENWINDOW = 0x46,$/;"	e	enum:__anon6
+CMD_ACTION_REVERSINGLAMP	clientCom.h	/^	CMD_ACTION_REVERSINGLAMP = 0x35,$/;"	e	enum:__anon6
+CMD_ACTION_SIGNAL_HORN	clientCom.h	/^	CMD_ACTION_SIGNAL_HORN = 0x38,$/;"	e	enum:__anon6
+CMD_ACTION_TURN_SIGNAL_LAMP	clientCom.h	/^	CMD_ACTION_TURN_SIGNAL_LAMP = 0x30,$/;"	e	enum:__anon6
+CMD_ACTION_UNLOCK	clientCom.h	/^	CMD_ACTION_UNLOCK		= 0x22,$/;"	e	enum:__anon6
+CMD_ACTION_WINDSCREEN_WASHERS	clientCom.h	/^	CMD_ACTION_WINDSCREEN_WASHERS = 0x37,$/;"	e	enum:__anon6
+CMD_FC_ACTION_ID	clientCom.h	/^	CMD_FC_ACTION_ID			= 0x15$/;"	e	enum:__anon4
+CMD_FC_CAN_FRAME_DATA	clientCom.h	/^	CMD_FC_CAN_FRAME_DATA	= 0x12,$/;"	e	enum:__anon4
+CMD_FC_GET_CAN_FILTER	clientCom.h	/^	CMD_FC_GET_CAN_FILTER = 0x13,$/;"	e	enum:__anon4
+CMD_FC_HEARTBEAT	clientCom.h	/^	CMD_FC_HEARTBEAT			= 0x11,$/;"	e	enum:__anon4
+CMD_FC_SET_CAN_FILTER	clientCom.h	/^	CMD_FC_SET_CAN_FILTER = 0x14,$/;"	e	enum:__anon4
+CMD_TC_CAN_FRAME	clientCom.h	/^	CMD_TC_CAN_FRAME			= 0x01,$/;"	e	enum:__anon3
+CMD_TC_CONTEXT_INFO	clientCom.h	/^	CMD_TC_CONTEXT_INFO		= 0x03,$/;"	e	enum:__anon3
+CMD_TC_HEARTBEAT	clientCom.h	/^	CMD_TC_HEARTBEAT			= 0x00,$/;"	e	enum:__anon3
+CMD_TC_ONBOARD_INFO	clientCom.h	/^	CMD_TC_ONBOARD_INFO   = 0x02,$/;"	e	enum:__anon3
+COMMANDED_2ND_AIR_STATUS	portContext.h	/^	COMMANDED_2ND_AIR_STATUS,					\/\/ 0x12$/;"	e	enum:__anon14
+COMMANDED_EGR	portContext.h	/^	COMMANDED_EGR,$/;"	e	enum:__anon14
+COMMANDED_EVAPORATIVE_PURGE	portContext.h	/^	COMMANDED_EVAPORATIVE_PURGE,$/;"	e	enum:__anon14
+CXT_BUF_SIZE	portContext.cpp	31;"	d	file:
+C_SVC	libsvm/svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon7
+Cache	libsvm/svm.cpp	/^Cache::Cache(int l_,long int size_):l(l_),size(size_)$/;"	f	class:Cache
+Cache	libsvm/svm.cpp	/^class Cache$/;"	c	file:
+Cn	libsvm/svm.cpp	/^	double Cp,Cn;$/;"	m	class:Solver	file:
+Condition	portForward.h	/^}Condition;$/;"	t	typeref:struct:condition
+Cp	libsvm/svm.cpp	/^	double Cp,Cn;$/;"	m	class:Solver	file:
+DATATEST	log.cpp	12;"	d	file:
+DBCItem	ivSpec.h	/^struct DBCItem {$/;"	s
+DBG_LOG	utils.h	6;"	d
+DBG_OUTPUT_FILE	utils.h	18;"	d
+DEC_SCALE_STEP	baksvm/extFeature.cpp	14;"	d	file:
+DEC_WIN_PERIOD	baksvm/extFeature.cpp	12;"	d	file:
+DESF	baksvm/extFeature.cpp	/^static void DESF(double *data, double alph, int col, int row) {$/;"	f	file:
+DISTANCE_TRAVELED_SINCE_CODE_CLEARED	portContext.h	/^	DISTANCE_TRAVELED_SINCE_CODE_CLEARED,$/;"	e	enum:__anon14
+DISTANCE_TRAVELED_WITH_MIL	portContext.h	/^	DISTANCE_TRAVELED_WITH_MIL,$/;"	e	enum:__anon14
+EGR_ERROR	portContext.h	/^	EGR_ERROR,$/;"	e	enum:__anon14
+ENGINE_COOLANT_TEMPERATURE	portContext.h	/^	ENGINE_COOLANT_TEMPERATURE,$/;"	e	enum:__anon14
+ENGINE_RPM	portContext.h	/^	ENGINE_RPM,$/;"	e	enum:__anon14
+EPSILON_SVR	libsvm/svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon7
+EVAP_SYSTEM_VAPOR_PRESSURE	portContext.h	/^	EVAP_SYSTEM_VAPOR_PRESSURE,$/;"	e	enum:__anon14
+Expression	portForward.h	/^}Expression;$/;"	t	typeref:struct:expression
+FREE	libsvm/svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon9	file:
+FREEZE_DTC	portContext.h	/^	FREEZE_DTC,$/;"	e	enum:__anon14
+FROM_SERVICE_CAN_FRAME	clientCom.h	24;"	d
+FROM_SERVICE_GET_CAN_FILTER	clientCom.h	25;"	d
+FROM_SERVICE_SET_CAN_FILTER	clientCom.h	26;"	d
+FSCANF	libsvm/svm.cpp	2772;"	d	file:
+FUEL_PRESSURE	portContext.h	/^	FUEL_PRESSURE,$/;"	e	enum:__anon14
+FUEL_RAIL_GAUGE_PRESSURE	portContext.h	/^	FUEL_RAIL_GAUGE_PRESSURE,$/;"	e	enum:__anon14
+FUEL_RAIL_PRESSURE	portContext.h	/^	FUEL_RAIL_PRESSURE,$/;"	e	enum:__anon14
+FUEL_SYSTEM_STATUS	portContext.h	/^	FUEL_SYSTEM_STATUS,$/;"	e	enum:__anon14
+FUEL_TANK_LEVEL_INPUT	portContext.h	/^	FUEL_TANK_LEVEL_INPUT,$/;"	e	enum:__anon14
+F_AVG_IDX	baksvm/extFeature.cpp	20;"	d	file:
+F_MAX_IDX	baksvm/extFeature.cpp	17;"	d	file:
+F_MIN_IDX	baksvm/extFeature.cpp	18;"	d	file:
+F_RNG_IDX	baksvm/extFeature.cpp	19;"	d	file:
+F_STD_IDX	baksvm/extFeature.cpp	21;"	d	file:
+G	libsvm/svm.cpp	/^	double *G;		\/\/ gradient of objective function$/;"	m	class:Solver	file:
+GRAVITY_EARTH	onboard.h	15;"	d
+GYRO_DATA_CONVERSION	onboard.h	17;"	d
+G_bar	libsvm/svm.cpp	/^	double *G_bar;		\/\/ gradient, if we treat free variables as 0$/;"	m	class:Solver	file:
+INF	libsvm/svm.cpp	37;"	d	file:
+INTAKE_AIR_TEMPERATURE	portContext.h	/^	INTAKE_AIR_TEMPERATURE,$/;"	e	enum:__anon14
+INTAKE_MANIFOLD_ABSOLUTE_PRESSURE	portContext.h	/^	INTAKE_MANIFOLD_ABSOLUTE_PRESSURE,$/;"	e	enum:__anon14
+IS_NOT_SIMULATOR	canitf.h	16;"	d
+IS_SUPPORT_PID	portContext.cpp	90;"	d	file:
+IVAckInfo	ivSpec.h	/^struct IVAckInfo{$/;"	s
+IVCxtInfo	ivSpec.h	/^struct IVCxtInfo {$/;"	s
+IVReqInfo	ivSpec.h	/^struct IVReqInfo{$/;"	s
+IVSysInfo	ivSpec.h	/^struct IVSysInfo{$/;"	s
+IV_CONTEXT_RPM	clientCom.h	/^    IV_CONTEXT_RPM      = 0x02$/;"	e	enum:__anon5
+IV_CONTEXT_SPEED	clientCom.h	/^    IV_CONTEXT_SPEED    = 0x01,$/;"	e	enum:__anon5
+Kernel	libsvm/svm.cpp	/^Kernel::Kernel(int l, svm_node * const * x_, const svm_parameter& param)$/;"	f	class:Kernel
+Kernel	libsvm/svm.cpp	/^class Kernel: public QMatrix {$/;"	c	file:
+LABEL_COMMENT	dbcSpec.h	6;"	d
+LABEL_MESSAGE	dbcSpec.h	4;"	d
+LABEL_SIGNAL	dbcSpec.h	5;"	d
+LABEL_VALUE	dbcSpec.h	7;"	d
+LIBSVM_VERSION	libsvm/svm.h	4;"	d
+LINEAR	libsvm/svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon8
+LOCAL_CPPFLAGS	Android.mk	/^LOCAL_CPPFLAGS:= -std=c++11 -pthread -shared -fpermissive -Wreorder$/;"	m
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := \\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := canitf$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := canitf.cpp	\\$/;"	m
+LOGD	ALog.h	7;"	d
+LOGE	ALog.h	8;"	d
+LOGI	ALog.h	6;"	d
+LOG_TAG	ALog.h	5;"	d
+LOG_TAG	utils.h	10;"	d
+LOG_TAG	utils.h	13;"	d
+LONG_FUEL_TRIM1	portContext.h	/^	LONG_FUEL_TRIM1,$/;"	e	enum:__anon14
+LONG_FUEL_TRIM2	portContext.h	/^	LONG_FUEL_TRIM2,$/;"	e	enum:__anon14
+LOWER_BOUND	libsvm/svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon9	file:
+MAF_AIR_FLOW_RATE	portContext.h	/^	MAF_AIR_FLOW_RATE,$/;"	e	enum:__anon14
+MAGIC_SPLIT_1	clientCom.h	10;"	d
+MAGIC_SPLIT_2	clientCom.h	11;"	d
+MAX_ACK_SIZE	isoTp.h	9;"	d
+MAX_CAN_PAYLOAD	ivSpec.h	14;"	d
+MAX_DETECT_ITEM	baksvm/extFeature.cpp	138;"	d	file:
+MAX_FEATURE_NUM	baksvm/extFeature.cpp	139;"	d	file:
+MAX_FILE_PATH	ivSpec.h	13;"	d
+MAX_FRAME_SIZE	isoTp.h	10;"	d
+MAX_LINE_LEN	baksvm/svmDetect.h	7;"	d
+MAX_LOAD_SIZE	isoTp.h	8;"	d
+MAX_MRIX_SIZE	baksvm/extFeature.cpp	15;"	d	file:
+MAX_NODE_NUM	baksvm/extFeature.cpp	10;"	d	file:
+MAX_NR_ATTR	baksvm/svmDetect.h	6;"	d
+MAX_SIGNAL_NUM	ivSpec.h	15;"	d
+MAX_TMP_BUF	log.h	6;"	d
+MODEL_FILE_PATH	baksvm/svmDetect.cpp	16;"	d	file:
+MONITOR_STATUS	portContext.h	/^	MONITOR_STATUS,$/;"	e	enum:__anon14
+MONITOR_STATUS_THIS_DRIVE_CYCLE	portContext.h	/^	MONITOR_STATUS_THIS_DRIVE_CYCLE$/;"	e	enum:__anon14
+Malloc	libsvm/svm.cpp	39;"	d	file:
+NU_SVC	libsvm/svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon7
+NU_SVR	libsvm/svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon7
+OBD_EMISSION_CUR_DTC_SID	portContext.h	/^	OBD_EMISSION_CUR_DTC_SID	= 0x07,$/;"	e	enum:obdService
+OBD_EMISSION_DIAG_REQ_SID	portContext.h	/^	OBD_EMISSION_DIAG_REQ_SID = 0x03,$/;"	e	enum:obdService
+OBD_EMISSION_DIAG_RST_SID	portContext.h	/^	OBD_EMISSION_DIAG_RST_SID = 0x04,$/;"	e	enum:obdService
+OBD_EMISSION_PER_DTC_SID	portContext.h	/^	OBD_EMISSION_PER_DTC_SID  = 0x0A$/;"	e	enum:obdService
+OBD_ONBOARD_CONTROL_SID	portContext.h	/^	OBD_ONBOARD_CONTROL_SID		= 0x08,$/;"	e	enum:obdService
+OBD_ONBOARD_SPECIFY_SID	portContext.h	/^	OBD_ONBOARD_SPECIFY_SID   = 0x06,$/;"	e	enum:obdService
+OBD_OXYGEN_RESULT_SID	portContext.h	/^	OBD_OXYGEN_RESULT_SID			= 0x05,$/;"	e	enum:obdService
+OBD_POWERTRAIN_DIAG_SID	portContext.h	/^	OBD_POWERTRAIN_DIAG_SID		= 0x01,$/;"	e	enum:obdService
+OBD_POWERTRAIN_FREE_SID	portContext.h	/^	OBD_POWERTRAIN_FREE_SID		= 0x02,$/;"	e	enum:obdService
+OBD_STANDARDS	portContext.h	/^	OBD_STANDARDS,										\/\/ 0x1C$/;"	e	enum:__anon14
+OBD_STATE_HAND	obdPort.h	/^	OBD_STATE_HAND	 = 3,   \/\/ Being handling (building session)$/;"	e	enum:__anon11
+OBD_STATE_IDLE	obdPort.h	/^	OBD_STATE_IDLE	 = 4		\/\/ Idle$/;"	e	enum:__anon11
+OBD_STATE_RX	obdPort.h	/^	OBD_STATE_RX		 = 1,		\/\/ Being receiving frames$/;"	e	enum:__anon11
+OBD_STATE_TX	obdPort.h	/^	OBD_STATE_TX		 = 2,		\/\/ Being transmiting frames$/;"	e	enum:__anon11
+OBD_STATE_WILD	obdPort.h	/^	OBD_STATE_WILD	 = 0,		\/\/ No CAN socket bond$/;"	e	enum:__anon11
+OBD_SUPPORTED_PID_REQ_SID	portContext.h	/^	OBD_SUPPORTED_PID_REQ_SID = 0x00,$/;"	e	enum:obdService
+OBD_VEHICLE_INFO_SID	portContext.h	/^	OBD_VEHICLE_INFO_SID			= 0x09,$/;"	e	enum:obdService
+ONBOARD_SENSOR_NAME	onboard.h	11;"	d
+ONE_CLASS	libsvm/svm.h	/^enum { C_SVC, NU_SVC, ONE_CLASS, EPSILON_SVR, NU_SVR };	\/* svm_type *\/$/;"	e	enum:__anon7
+ONE_CLASS_Q	libsvm/svm.cpp	/^	ONE_CLASS_Q(const svm_problem& prob, const svm_parameter& param)$/;"	f	class:ONE_CLASS_Q
+ONE_CLASS_Q	libsvm/svm.cpp	/^class ONE_CLASS_Q: public Kernel$/;"	c	file:
+ORYGEN_SENSORS_PRESENT_4	portContext.h	/^	ORYGEN_SENSORS_PRESENT_4,$/;"	e	enum:__anon14
+OUTPUT_FILE_PATH	baksvm/svmDetect.cpp	17;"	d	file:
+OXYGEN_SENSORS_PRESENT_2	portContext.h	/^	OXYGEN_SENSORS_PRESENT_2,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_1	portContext.h	/^	OXYGEN_SENSOR_1,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_1_FUEL_CURRENT	portContext.h	/^	OXYGEN_SENSOR_1_FUEL_CURRENT,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_1_FUEL_VOLTAGE	portContext.h	/^	OXYGEN_SENSOR_1_FUEL_VOLTAGE,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_2	portContext.h	/^	OXYGEN_SENSOR_2,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_2_FUEL_CURRENT	portContext.h	/^	OXYGEN_SENSOR_2_FUEL_CURRENT,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_2_FUEL_VOLTAGE	portContext.h	/^	OXYGEN_SENSOR_2_FUEL_VOLTAGE,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_3	portContext.h	/^	OXYGEN_SENSOR_3,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_3_FUEL_CURRENT	portContext.h	/^	OXYGEN_SENSOR_3_FUEL_CURRENT,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_3_FUEL_VOLTAGE	portContext.h	/^	OXYGEN_SENSOR_3_FUEL_VOLTAGE,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_4	portContext.h	/^	OXYGEN_SENSOR_4,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_4_FUEL_CURRENT	portContext.h	/^	OXYGEN_SENSOR_4_FUEL_CURRENT,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_4_FUEL_VOLTAGE	portContext.h	/^	OXYGEN_SENSOR_4_FUEL_VOLTAGE,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_5	portContext.h	/^	OXYGEN_SENSOR_5,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_5_FUEL_CURRENT	portContext.h	/^	OXYGEN_SENSOR_5_FUEL_CURRENT,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_5_FUEL_VOLTAGE	portContext.h	/^	OXYGEN_SENSOR_5_FUEL_VOLTAGE,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_6	portContext.h	/^	OXYGEN_SENSOR_6,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_6_FUEL_CURRENT	portContext.h	/^	OXYGEN_SENSOR_6_FUEL_CURRENT,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_6_FUEL_VOLTAGE	portContext.h	/^	OXYGEN_SENSOR_6_FUEL_VOLTAGE,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_7	portContext.h	/^	OXYGEN_SENSOR_7,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_7_FUEL_CURRENT	portContext.h	/^	OXYGEN_SENSOR_7_FUEL_CURRENT,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_7_FUEL_VOLTAGE	portContext.h	/^	OXYGEN_SENSOR_7_FUEL_VOLTAGE,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_8	portContext.h	/^	OXYGEN_SENSOR_8,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_8_FUEL_CURRENT	portContext.h	/^	OXYGEN_SENSOR_8_FUEL_CURRENT,$/;"	e	enum:__anon14
+OXYGEN_SENSOR_8_FUEL_VOLTAGE	portContext.h	/^	OXYGEN_SENSOR_8_FUEL_VOLTAGE,$/;"	e	enum:__anon14
+PCI_FRAME_CF	isoTp.h	/^	PCI_FRAME_CF = 2,   \/* The continusous frame *\/$/;"	e	enum:__anon13
+PCI_FRAME_FC	isoTp.h	/^	PCI_FRAME_FC = 3,   \/* The flow control frame *\/$/;"	e	enum:__anon13
+PCI_FRAME_FF	isoTp.h	/^	PCI_FRAME_FF = 1,	 \/* The first frame *\/ $/;"	e	enum:__anon13
+PCI_FRAME_IF	isoTp.h	/^	PCI_FRAME_IF = 4    \/* The invalid frame *\/$/;"	e	enum:__anon13
+PCI_FRAME_MASK	isoTp.h	29;"	d
+PCI_FRAME_SF	isoTp.h	/^	PCI_FRAME_SF = 0,	 \/* The single frame *\/ $/;"	e	enum:__anon13
+POLY	libsvm/svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon8
+PORT	udp.cpp	34;"	d	file:
+PRECOMPUTED	libsvm/svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon8
+Q	libsvm/svm.cpp	/^	const QMatrix *Q;$/;"	m	class:Solver	file:
+QD	libsvm/svm.cpp	/^	const double *QD;$/;"	m	class:Solver	file:
+QD	libsvm/svm.cpp	/^	double *QD;$/;"	m	class:ONE_CLASS_Q	file:
+QD	libsvm/svm.cpp	/^	double *QD;$/;"	m	class:SVC_Q	file:
+QD	libsvm/svm.cpp	/^	double *QD;$/;"	m	class:SVR_Q	file:
+QMatrix	libsvm/svm.cpp	/^class QMatrix {$/;"	c	file:
+Qfloat	libsvm/svm.cpp	/^typedef float Qfloat;$/;"	t	file:
+RBF	libsvm/svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon8
+RETURN_IF_NOT_CONTEXT	canitf.h	49;"	d
+RETURN_IF_NOT_CONTEXT_RET	canitf.h	53;"	d
+RUNTIME_ENGINE_START	portContext.h	/^	RUNTIME_ENGINE_START,							\/\/ 0x1F$/;"	e	enum:__anon14
+SCALE_FACTOR	onboard.h	13;"	d
+SHORT_FUEL_TRIM1	portContext.h	/^	SHORT_FUEL_TRIM1,$/;"	e	enum:__anon14
+SHORT_FUEL_TRIM2	portContext.h	/^	SHORT_FUEL_TRIM2,$/;"	e	enum:__anon14
+SIGMOID	libsvm/svm.h	/^enum { LINEAR, POLY, RBF, SIGMOID, PRECOMPUTED }; \/* kernel_type *\/$/;"	e	enum:__anon8
+SOCKET_NAME	clientCom.cpp	18;"	d	file:
+SUPPORTED_PIDS	portContext.h	/^	SUPPORTED_PIDS		= 0x00,$/;"	e	enum:__anon14
+SUPPORTED_PIDS_20	portContext.h	/^	SUPPORTED_PIDS_20,								\/\/ 0x20$/;"	e	enum:__anon14
+SUPPORTED_PIDS_40	portContext.h	/^	SUPPORTED_PIDS_40,									\/\/ 0x40$/;"	e	enum:__anon14
+SV	libsvm/svm.h	/^	struct svm_node **SV;		\/* SVs (SV[l]) *\/$/;"	m	struct:svm_model	typeref:struct:svm_model::svm_node
+SVC_Q	libsvm/svm.cpp	/^	SVC_Q(const svm_problem& prob, const svm_parameter& param, const schar *y_)$/;"	f	class:SVC_Q
+SVC_Q	libsvm/svm.cpp	/^class SVC_Q: public Kernel$/;"	c	file:
+SVR_Q	libsvm/svm.cpp	/^	SVR_Q(const svm_problem& prob, const svm_parameter& param)$/;"	f	class:SVR_Q
+SVR_Q	libsvm/svm.cpp	/^class SVR_Q: public Kernel$/;"	c	file:
+SYS_MODE_ACTION	canitf.h	/^	SYS_MODE_ACTION		= 1,				\/\/ The system running as a remote control (attack) tool$/;"	e	enum:__anon1
+SYS_MODE_CONTEXT	canitf.h	/^	SYS_MODE_CONTEXT  = 8					\/\/ The system running for reading in-vehicle context		$/;"	e	enum:__anon1
+SYS_MODE_FORWARD	canitf.h	/^	SYS_MODE_FORWARD	= 2,				\/\/ The system running as a branch$/;"	e	enum:__anon1
+SYS_MODE_IDLE	canitf.h	/^	SYS_MODE_IDLE		  = 0,        \/\/ No Client working$/;"	e	enum:__anon1
+SYS_MODE_SNIFFER	canitf.h	/^	SYS_MODE_SNIFFER  = 4,				\/\/ The system rnnning as a CAN frame sniffer			$/;"	e	enum:__anon1
+SolutionInfo	libsvm/svm.cpp	/^	struct SolutionInfo {$/;"	s	class:Solver	file:
+Solve	libsvm/svm.cpp	/^	void Solve(int l, const QMatrix& Q, const double *p, const schar *y,$/;"	f	class:Solver_NU
+Solve	libsvm/svm.cpp	/^void Solver::Solve(int l, const QMatrix& Q, const double *p_, const schar *y_,$/;"	f	class:Solver
+Solver	libsvm/svm.cpp	/^	Solver() {};$/;"	f	class:Solver
+Solver	libsvm/svm.cpp	/^class Solver {$/;"	c	file:
+Solver_NU	libsvm/svm.cpp	/^	Solver_NU() {}$/;"	f	class:Solver_NU
+Solver_NU	libsvm/svm.cpp	/^class Solver_NU: public Solver$/;"	c	file:
+SpString	portForward.h	/^}SpString;$/;"	t	typeref:struct:splitString
+String2Bytes	utils.cpp	/^int String2Bytes(uchar *bdst, char *hstr, int len){$/;"	f
+TAU	libsvm/svm.cpp	38;"	d	file:
+TEST	canitf.h	17;"	d
+THROTTLE_POSITION	portContext.h	/^	THROTTLE_POSITION,$/;"	e	enum:__anon14
+TIMING_ADVANCE	portContext.h	/^	TIMING_ADVANCE,$/;"	e	enum:__anon14
+TO_CLIENT_CAN_FRAME	clientCom.h	/^	TO_CLIENT_CAN_FRAME		 = 0x01,$/;"	e	enum:__anon2
+TO_CLIENT_CONTEXT_INFO	clientCom.h	/^	TO_CLIENT_CONTEXT_INFO = 0x03,$/;"	e	enum:__anon2
+TO_CLIENT_FILTER_INFO	clientCom.h	/^	TO_CLIENT_FILTER_INFO = 0x04$/;"	e	enum:__anon2
+TO_CLIENT_HEARTBEAT	clientCom.h	/^	TO_CLIENT_HEARTBEAT		 = 0x00,$/;"	e	enum:__anon2
+TO_CLIENT_ONBOARD_INFO	clientCom.h	/^	TO_CLIENT_ONBOARD_INFO = 0x02,$/;"	e	enum:__anon2
+UINT32	utils.h	/^typedef unsigned int  UINT32;$/;"	t
+UPPER_BOUND	libsvm/svm.cpp	/^	enum { LOWER_BOUND, UPPER_BOUND, FREE };$/;"	e	enum:Solver::__anon9	file:
+VEHICLE_SPEED	portContext.h	/^	VEHICLE_SPEED,$/;"	e	enum:__anon14
+WARM_UP_SINCE_CODE_CLEARED	portContext.h	/^	WARM_UP_SINCE_CODE_CLEARED,$/;"	e	enum:__anon14
+XUELEI	canitf.cpp	42;"	d	file:
+XUELEI	vehicle.cpp	20;"	d	file:
+_LIBSVM_H	libsvm/svm.h	2;"	d
+_UDP_H	udp.h	9;"	d
+_UTILS_H_	utils.h	2;"	d
+__CAN_CONTEXT_H	portContext.h	3;"	d
+__CAN_CONTRL_H	portControl.h	3;"	d
+__CAN_ITF_H	canitf.h	3;"	d
+__CLIENT_COM_H	clientCom.h	3;"	d
+__CONFIG_H	vehicle.h	3;"	d
+__EXTRACT_FEATURE_H	baksvm/extFeature.h	4;"	d
+__ISO_TP_H	isoTp.h	3;"	d
+__IV_SPEC_H	ivSpec.h	3;"	d
+__LOG_H	log.h	2;"	d
+__ON_BOARD_SENSOR_H	onboard.h	3;"	d
+__PORT_FORWARD_H	portForward.h	3;"	d
+__SVM_DETECT_H	baksvm/svmDetect.h	3;"	d
+acc_fd	onboard.h	/^	int							acc_fd;$/;"	m	struct:onboardPortState
+ack_data	ivSpec.h	/^	unsigned char	 ack_data[MAX_CAN_PAYLOAD]; \/\/ The buf storing the response data$/;"	m	struct:IVCxtInfo
+ack_data	ivSpec.h	/^	unsigned char ack_data[MAX_CAN_PAYLOAD];$/;"	m	struct:IVAckInfo
+ack_data	portControl.h	/^	uchar		ack_data[MAX_ACK_SIZE];$/;"	m	struct:ivActionCtrl
+ack_id	ivSpec.h	/^	unsigned short ack_id; \/\/ The functional response id$/;"	m	struct:DBCItem
+ack_id	ivSpec.h	/^	ushort ack_id;$/;"	m	struct:IVReqInfo
+ack_id	ivSpec.h	/^	ushort ack_id;$/;"	m	struct:IVSysInfo
+ack_id	portControl.h	/^	ushort	ack_id;$/;"	m	struct:ivActionCtrl
+ack_info	ivSpec.cpp	/^struct IVCxtInfo *ack_info;$/;"	v	typeref:struct:IVCxtInfo
+ack_len	ivSpec.h	/^	int ack_len;$/;"	m	struct:IVAckInfo
+ack_len	ivSpec.h	/^	unsigned int	 ack_len;		 \/\/ The length of the request data$/;"	m	struct:IVCxtInfo
+ack_len	portControl.h	/^	uint		ack_len;$/;"	m	struct:ivActionCtrl
+action_id	portControl.h	/^	uint		action_id;$/;"	m	struct:ivActionCtrl
+action_rules	portControl.cpp	/^struct ctrlAction *action_rules;$/;"	v	typeref:struct:ctrlAction
+active_set	libsvm/svm.cpp	/^	int *active_set;$/;"	m	class:Solver	file:
+active_size	libsvm/svm.cpp	/^	int active_size;$/;"	m	class:Solver	file:
+addFeatures	baksvm/extFeature.cpp	/^static int addFeatures(double *data, int col, int row) {$/;"	f	file:
+addGyNode	baksvm/extFeature.cpp	/^void addGyNode(ullong ts, double *data) {$/;"	f
+addIvNode	baksvm/extFeature.cpp	/^void addIvNode(ullong ts, uint type, double data) {$/;"	f
+addPermissionCondition	portForward.cpp	/^void addPermissionCondition(struct singlePermission *sp,char *e){$/;"	f
+addPermissionState	portForward.cpp	/^void addPermissionState(struct singlePermission *sp,char *e){$/;"	f
+addUsedIVCxtReq	ivSpec.cpp	/^int addUsedIVCxtReq(char* name){$/;"	f
+all_req_info	ivSpec.cpp	/^struct IVReqInfo *all_req_info = NULL;$/;"	v	typeref:struct:IVReqInfo
+alpha	libsvm/svm.cpp	/^	double *alpha;$/;"	m	class:Solver	file:
+alpha	libsvm/svm.cpp	/^	double *alpha;$/;"	m	struct:decision_function	file:
+alpha_status	libsvm/svm.cpp	/^	char *alpha_status;	\/\/ LOWER_BOUND, UPPER_BOUND, FREE$/;"	m	class:Solver	file:
+arrayToInt	utils.cpp	/^int arrayToInt(byte* buff) {$/;"	f
+axis_data	onboard.h	/^struct axis_data {$/;"	s
+be_shrunk	libsvm/svm.cpp	/^bool Solver::be_shrunk(int i, double Gmax1, double Gmax2)$/;"	f	class:Solver
+be_shrunk	libsvm/svm.cpp	/^bool Solver_NU::be_shrunk(int i, double Gmax1, double Gmax2, double Gmax3, double Gmax4)$/;"	f	class:Solver_NU
+beforeUDS_frame	portForward.cpp	/^struct multipleFrame *beforeUDS_frame;$/;"	v	typeref:struct:multipleFrame
+before_frame	portForward.cpp	/^struct multipleFrame *before_frame;$/;"	v	typeref:struct:multipleFrame
+bf_data	portForward.h	/^	uchar bf_data[1024];$/;"	m	struct:multipleFrame
+bf_option	portForward.h	/^	uchar bf_option;$/;"	m	struct:multipleFrame
+bf_res	portForward.h	/^	int bf_res; \/\/if before frames have wrong, after ignore$/;"	m	struct:multipleFrame
+bf_seq	portForward.h	/^	uchar bf_seq;$/;"	m	struct:multipleFrame
+bf_time	portForward.h	/^	ullong bf_time;$/;"	m	struct:multipleFrame
+bfdata_len	portForward.h	/^	int bfdata_len;$/;"	m	struct:multipleFrame
+buffer	libsvm/svm.cpp	/^	Qfloat *buffer[2];$/;"	m	class:SVR_Q	file:
+buildNewSession	portContext.cpp	/^bool buildNewSession(ushort req_id, ushort ack_id, struct IVSysInfo *iv_sys) {$/;"	f
+build_session_request	ivSpec.h	/^	struct ivCanFrameInfo build_session_request;$/;"	m	struct:IVSysInfo	typeref:struct:IVSysInfo::ivCanFrameInfo
+byte	portForward.h	/^	int byte;$/;"	m	struct:condition
+byte	utils.h	/^typedef unsigned char byte;$/;"	t
+bytes2String	utils.cpp	/^void bytes2String(char *hdst, uchar *bsrc, int len) {$/;"	f
+bytesToHexString	utils.cpp	/^void bytesToHexString(char *hdst, uchar *bsrc, int len) {$/;"	f
+cache	libsvm/svm.cpp	/^	Cache *cache;$/;"	m	class:ONE_CLASS_Q	file:
+cache	libsvm/svm.cpp	/^	Cache *cache;$/;"	m	class:SVC_Q	file:
+cache	libsvm/svm.cpp	/^	Cache *cache;$/;"	m	class:SVR_Q	file:
+cache_size	libsvm/svm.h	/^	double cache_size; \/* in MB *\/$/;"	m	struct:svm_parameter
+calculateExpress	portForward.cpp	/^bool calculateExpress(Expression *e, double x){$/;"	f
+calculate_rho	libsvm/svm.cpp	/^double Solver::calculate_rho()$/;"	f	class:Solver
+calculate_rho	libsvm/svm.cpp	/^double Solver_NU::calculate_rho()$/;"	f	class:Solver_NU
+can0_info	canitf.h	/^	struct obdCanPortState	*can0_info;$/;"	m	struct:sysRunningStatus	typeref:struct:sysRunningStatus::obdCanPortState
+can1_info	canitf.h	/^	struct obdCanPortState	*can1_info;$/;"	m	struct:sysRunningStatus	typeref:struct:sysRunningStatus::obdCanPortState
+canFrameFilter	portForward.h	/^struct canFrameFilter {	$/;"	s
+can_dst_id	obdPort.h	/^	ushort	can_dst_id;						\/\/ The request CAN ID of current session$/;"	m	struct:obdCanPortState
+can_id	portForward.h	/^	uint can_id;$/;"	m	struct:startDiagnosis
+can_lock	obdPort.h	/^	pthread_mutex_t	can_lock;			\/\/ The lock for packet Tx$/;"	m	struct:obdCanPortState
+can_session_id	obdPort.h	/^	ushort	can_session_id;				\/\/ The session states$/;"	m	struct:obdCanPortState
+can_sk	obdPort.h	/^	uint		can_sk;								\/\/ The CAN socket bond to this port$/;"	m	struct:obdCanPortState
+can_src_id	obdPort.h	/^	ushort	can_src_id;						\/\/ The response CAN ID of current session$/;"	m	struct:obdCanPortState
+charCopy	dbcSpec.h	/^void charCopy(char* hexChar, char* unsignedChar){$/;"	f
+charToByte	utils.cpp	/^static uchar charToByte(char c) {$/;"	f	file:
+checkActionParameters	portForward.cpp	/^bool checkActionParameters(char *name,int pid,uchar *frame){$/;"	f
+checkFormatRule	portForward.cpp	/^int checkFormatRule(struct can_frame *frame){$/;"	f
+checkFormula	portForward.cpp	/^bool checkFormula(int symbol,double x1,double x2){$/;"	f
+checkOBDDataFrame	portForward.cpp	/^int checkOBDDataFrame(struct can_frame *frame){$/;"	f
+checkPermission	portForward.cpp	/^int checkPermission(struct permissionRule* permission,int index,uchar *buff,int len_max){$/;"	f
+checkTPDataFrame	portForward.cpp	/^int checkTPDataFrame(struct can_frame *frame,ullong ts){$/;"	f
+checkTPType	portForward.cpp	/^int checkTPType(struct can_frame *frame){$/;"	f
+checkUDSDataFrame	portForward.cpp	/^int checkUDSDataFrame(struct can_frame *frame,ullong ts){$/;"	f
+checkUDSType	portForward.cpp	/^int checkUDSType(struct can_frame *frame){$/;"	f
+clientCommState	clientCom.h	/^struct clientCommState {$/;"	s
+client_thread	canitf.h	/^	pthread_t								client_thread;$/;"	m	struct:sysRunningStatus
+clone	libsvm/svm.cpp	/^template <class S, class T> static inline void clone(T*& dst, S* src, int n)$/;"	f	file:
+cmp2Action	portForward.cpp	/^int cmp2Action(uchar *act,uchar *frame,int len1,int len2){$/;"	f
+cmp2uchar	utils.cpp	/^int cmp2uchar(uchar* a,uchar* b,int len1,int len2){$/;"	f
+coef0	libsvm/svm.cpp	/^	const double coef0;$/;"	m	class:Kernel	file:
+coef0	libsvm/svm.h	/^	double coef0;	\/* for poly\/sigmoid *\/$/;"	m	struct:svm_parameter
+collectIVContext	portContext.cpp	/^void collectIVContext(void) {$/;"	f
+comIVContextInfo	clientCom.h	/^struct comIVContextInfo{$/;"	s
+com_lock	clientCom.h	/^	pthread_mutex_t	com_lock;     \/\/ The lock for using the communication socket$/;"	m	struct:clientCommState
+com_sk	clientCom.h	/^	int			com_sk;								\/\/ The socket for communication with the client (app)$/;"	m	struct:clientCommState
+comm_info	canitf.h	/^	struct clientCommState	*comm_info;$/;"	m	struct:sysRunningStatus	typeref:struct:sysRunningStatus::clientCommState
+con	portForward.h	/^	Condition *con;        \/\/can be replaced by list too$/;"	m	struct:singleRule
+condition	portForward.h	/^typedef struct condition{$/;"	s
+conditionLength	portForward.h	/^	int conditionLength;$/;"	m	struct:singleRule
+context_thread	canitf.h	/^	pthread_t								context_thread;$/;"	m	struct:sysRunningStatus
+convertUnCharToStr	ivSpec.cpp	/^void convertUnCharToStr(char* str, unsigned char* UnChar, int UnCharSize)$/;"	f
+createNewDBCItem	ivSpec.cpp	/^void createNewDBCItem(struct DBCItem* dbc_item_list){$/;"	f
+ctrlAction	portControl.h	/^struct ctrlAction{$/;"	s
+cxtInfo	portContext.h	/^struct cxtInfo {$/;"	s
+cxtRequest	portContext.h	/^struct cxtRequest {$/;"	s
+cxt_ring_buf	portContext.cpp	/^static uchar cxt_ring_buf[CXT_BUF_SIZE];$/;"	v	file:
+cxt_type	clientCom.h	/^  uint   cxt_type;$/;"	m	struct:comIVContextInfo
+data	baksvm/extFeature.h	/^	double data[6];$/;"	m	struct:gyInfoNode
+data	isoTp.h	/^	uchar	data[MAX_FRAME_SIZE];$/;"	m	struct:ivCanFrameInfo
+data	libsvm/svm.cpp	/^		Qfloat *data;$/;"	m	struct:Cache::head_t	file:
+data	portContext.h	/^	char data[100];$/;"	m	struct:recordData
+data	portContext.h	/^	uchar	data[0];$/;"	m	struct:cxtInfo
+dbc_item_list	ivSpec.cpp	/^struct DBCItem *dbc_item_list = NULL; \/\/ The list storing all the dbc items$/;"	v	typeref:struct:DBCItem
+dbc_path	ivSpec.cpp	/^static char dbc_path[MAX_FILE_PATH];$/;"	v	file:
+decision	portControl.h	/^	int		decision;$/;"	m	struct:ctrlAction
+decision	portForward.h	/^    int decision;$/;"	m	struct:singlePermission
+decision_function	libsvm/svm.cpp	/^struct decision_function$/;"	s	file:
+degree	libsvm/svm.cpp	/^	const int degree;$/;"	m	class:Kernel	file:
+degree	libsvm/svm.h	/^	int degree;	\/* for poly *\/$/;"	m	struct:svm_parameter
+doActionByName	portControl.cpp	/^static void doActionByName(const char *name, uchar *data) {$/;"	f	file:
+doControlAction	portControl.cpp	/^void doControlAction(uchar action, uchar *data) {$/;"	f
+doInjectAction	portControl.cpp	/^void doInjectAction(){$/;"	f
+do_shrinking	libsvm/svm.cpp	/^void Solver::do_shrinking()$/;"	f	class:Solver
+do_shrinking	libsvm/svm.cpp	/^void Solver_NU::do_shrinking()$/;"	f	class:Solver_NU
+dot	libsvm/svm.cpp	/^double Kernel::dot(const svm_node *px, const svm_node *py)$/;"	f	class:Kernel
+enumCanState	obdPort.h	/^} enumCanState;$/;"	t	typeref:enum:__anon10
+enumIpsMode	canitf.h	/^} enumIpsMode;$/;"	t	typeref:enum:__anon1
+enumPortState	obdPort.h	/^} enumPortState;$/;"	t	typeref:enum:__anon11
+enum_ACTION_SUBCMD	clientCom.h	/^} enum_ACTION_SUBCMD;$/;"	t	typeref:enum:__anon6
+enum_APP_CMD	clientCom.h	/^} enum_APP_CMD;$/;"	t	typeref:enum:__anon4
+enum_APP_CONTEXT_INFO	clientCom.h	/^} enum_APP_CONTEXT_INFO;$/;"	t	typeref:enum:__anon5
+enum_CAN_PORT_STATE	obdPort.h	/^} enum_CAN_PORT_STATE;$/;"	t	typeref:enum:__anon12
+enum_CLIENT_CMD	clientCom.h	/^} enum_CLIENT_CMD;$/;"	t	typeref:enum:__anon3
+enum_PCI_FRAME	isoTp.h	/^} enum_PCI_FRAME;$/;"	t	typeref:enum:__anon13
+enum_SERVICE_DATA_TYPE	clientCom.h	/^} enum_SERVICE_DATA_TYPE;$/;"	t	typeref:enum:__anon2
+eps	libsvm/svm.cpp	/^	double eps;$/;"	m	class:Solver	file:
+eps	libsvm/svm.h	/^	double eps;	\/* stopping criteria *\/$/;"	m	struct:svm_parameter
+exitLog	log.cpp	/^void exitLog(void)$/;"	f
+exit_input_error	baksvm/svmDetect.cpp	/^static void exit_input_error(int err_num) {$/;"	f	file:
+exp	portForward.h	/^	Expression exp;$/;"	m	struct:condition
+exp	portForward.h	/^    Expression exp;$/;"	m	struct:vehicleState
+expression	portForward.h	/^typedef struct expression{$/;"	s
+ext_iv_act	portControl.cpp	/^struct ivActionCtrl *ext_iv_act;$/;"	v	typeref:struct:ivActionCtrl
+externalFrameDetect	portForward.cpp	/^int externalFrameDetect(struct can_frame *frame) {$/;"	f
+externalFrameHandler	portForward.cpp	/^int externalFrameHandler(struct can_frame *frame) {$/;"	f
+externalPortForward	portForward.cpp	/^int externalPortForward(void) {$/;"	f
+f_num	baksvm/extFeature.cpp	/^static int f_num = 0;$/;"	v	file:
+features	baksvm/extFeature.cpp	/^static double features[MAX_FEATURE_NUM];$/;"	v	file:
+filter_table	portForward.cpp	/^struct canFrameFilter *filter_table = NULL;$/;"	v	typeref:struct:canFrameFilter
+finiSpec	ivSpec.cpp	/^void finiSpec() {$/;"	f
+flag	ivSpec.h	/^	bool flag;$/;"	m	struct:IVReqInfo
+formatRule	portForward.h	/^struct formatRule{$/;"	s
+forwardFrame	isoTp.cpp	/^int forwardFrame(uint src_sk, uint dst_sk, int(*frameHandler)(struct can_frame *)) {$/;"	f
+forward_thread	canitf.h	/^	pthread_t								forward_thread;$/;"	m	struct:sysRunningStatus
+freeFilterHookTable	portForward.cpp	/^void freeFilterHookTable() {$/;"	f
+free_sv	libsvm/svm.h	/^	int free_sv;		\/* 1 if svm_model is created by svm_load_model*\/$/;"	m	struct:svm_model
+frequence	ivSpec.h	/^	int frequence;$/;"	m	struct:IVReqInfo
+funGenRequest	ivSpec.cpp	/^unsigned char* funGenRequest(char* DIDStr,struct IVReqInfo* req_info){$/;"	f
+funGenRequest	ivSpec.h	/^	unsigned char* (*funGenRequest)(char* DID,struct IVReqInfo* req_info);  \/\/ The function for generating request$/;"	m	struct:DBCItem
+funParResposne	ivSpec.cpp	/^bool funParResposne(DBCItem* currentDBCItem, unsigned char* responseMsg,int len, struct IVCxtInfo* ctx_info){$/;"	f
+funParResposne	ivSpec.h	/^	bool (*funParResposne)(DBCItem* currentDBCItem, unsigned char* responseMsg,int len, struct IVCxtInfo* ctx_info); \/\/ The function for parsing the response$/;"	m	struct:DBCItem
+gamma	libsvm/svm.cpp	/^	const double gamma;$/;"	m	class:Kernel	file:
+gamma	libsvm/svm.h	/^	double gamma;	\/* for poly\/rbf\/sigmoid *\/$/;"	m	struct:svm_parameter
+genIVCxtReq	ivSpec.cpp	/^void genIVCxtReq(struct DBCItem* dbc_item) {$/;"	f
+getCurrentTime	utils.cpp	/^ullong getCurrentTime(void) {$/;"	f
+getDBCItem	ivSpec.cpp	/^struct DBCItem* getDBCItem(char* vec_name) {$/;"	f
+getExpress	portForward.cpp	/^Expression getExpress(char *exp){$/;"	f
+getFirstSubstr_AfterSplitByChar	dbcSpec.h	/^void getFirstSubstr_AfterSplitByChar(char* strSrc, char splitChar, char* dst){$/;"	f
+getFirstSubstr_AfterSplitBySpace	dbcSpec.h	/^void getFirstSubstr_AfterSplitBySpace(char* strSrc, char* dst){$/;"	f
+getFormatCondition	portForward.cpp	/^void getFormatCondition(struct singleRule *sr,char *e){$/;"	f
+getFrameType	isoTp.cpp	/^uint getFrameType(struct can_frame *frame) {$/;"	f
+getMax	baksvm/extFeature.cpp	/^static double getMax(double *values, int size) {$/;"	f	file:
+getMean	baksvm/extFeature.cpp	/^static double getMean(double *values, int size) {$/;"	f	file:
+getMin	baksvm/extFeature.cpp	/^static double getMin(double *values, int size) {$/;"	f	file:
+getMulFrameSn	isoTp.cpp	/^uint getMulFrameSn(struct can_frame *frame) {$/;"	f
+getNewCxtData	portContext.cpp	/^struct cxtInfo* getNewCxtData() {$/;"	f
+getPayloadLength	isoTp.cpp	/^uint getPayloadLength(struct can_frame *frame) {$/;"	f
+getRandomDiagnosisiID	portControl.cpp	/^uint getRandomDiagnosisiID(){$/;"	f
+getRandomIVID	portControl.cpp	/^uint getRandomIVID(){$/;"	f
+getRandomPayload	portControl.cpp	/^int getRandomPayload(unsigned char* data,int max_size){$/;"	f
+getRange	baksvm/extFeature.cpp	/^static double getRange(double *values, int size) {$/;"	f	file:
+getReq	ivSpec.cpp	/^unsigned char* getReq(char* name){$/;"	f
+getS	baksvm/extFeature.cpp	/^static inline double getS(double v) {$/;"	f	file:
+getSQ	baksvm/extFeature.cpp	/^static double getSQ(double *values, int size) { \/\/ Sum of squares$/;"	f	file:
+getSTD	baksvm/extFeature.cpp	/^static double getSTD(double *values, int size) {$/;"	f	file:
+getSecondSubstr_AfterSplitByChar	dbcSpec.h	/^void getSecondSubstr_AfterSplitByChar(char* str, char splitChar, char* dst){$/;"	f
+getSecondSubstr_AfterSplitBySpace	dbcSpec.h	/^void getSecondSubstr_AfterSplitBySpace(char* str, char* dst){$/;"	f
+getStateValue	portForward.cpp	/^double getStateValue(int type){$/;"	f
+getStringAfterColon	dbcSpec.h	/^void getStringAfterColon(char* str, char* dst){$/;"	f
+getStringBeforeColon	dbcSpec.h	/^void getStringBeforeColon(char* str, char* dst){$/;"	f
+getSum	baksvm/extFeature.cpp	/^static double getSum(double *values, int size) {$/;"	f	file:
+getTestPID	portContext.cpp	/^int getTestPID(uchar *data){$/;"	f
+getThirdSubstr_AfterSplitBySpace	dbcSpec.h	/^void getThirdSubstr_AfterSplitBySpace(char* str, char* dst){$/;"	f
+getUDSPID	portContext.cpp	/^static int getUDSPID(char* name){$/;"	f	file:
+getVariance	baksvm/extFeature.cpp	/^static double getVariance(double *values, int size) {$/;"	f	file:
+getWinFeature	baksvm/extFeature.cpp	/^double *getWinFeature() {$/;"	f
+get_C	libsvm/svm.cpp	/^	double get_C(int i)$/;"	f	class:Solver
+get_Q	libsvm/svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:ONE_CLASS_Q
+get_Q	libsvm/svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:SVC_Q
+get_Q	libsvm/svm.cpp	/^	Qfloat *get_Q(int i, int len) const$/;"	f	class:SVR_Q
+get_QD	libsvm/svm.cpp	/^	double *get_QD() const$/;"	f	class:ONE_CLASS_Q
+get_QD	libsvm/svm.cpp	/^	double *get_QD() const$/;"	f	class:SVC_Q
+get_QD	libsvm/svm.cpp	/^	double *get_QD() const$/;"	f	class:SVR_Q
+get_data	libsvm/svm.cpp	/^int Cache::get_data(const int index, Qfloat **data, int len)$/;"	f	class:Cache
+get_pids_by_name	utils.cpp	/^int get_pids_by_name(pid_t *pids, int max, const char *name) {$/;"	f
+gyInfoNode	baksvm/extFeature.h	/^struct gyInfoNode {$/;"	s
+gy_info_idx	baksvm/extFeature.cpp	/^static uint gy_info_idx = 0;$/;"	v	file:
+gy_info_ring	baksvm/extFeature.cpp	/^static struct gyInfoNode	gy_info_ring[MAX_NODE_NUM];$/;"	v	typeref:struct:gyInfoNode	file:
+handle_udp_msg	udp.cpp	/^void handle_udp_msg(int fd){$/;"	f
+handler	portForward.h	/^	int (*handler)(struct can_frame *);$/;"	m	struct:canFrameFilter
+head	libsvm/svm.cpp	/^	head_t *head;$/;"	m	class:Cache	file:
+head_permission	portForward.h	/^    struct singlePermission *head_permission;$/;"	m	struct:permissionRule	typeref:struct:permissionRule::singlePermission
+head_rule	portForward.h	/^    struct condition *head_rule;$/;"	m	struct:singlePermission	typeref:struct:singlePermission::condition
+head_state	portForward.h	/^    struct vehicleState *head_state;$/;"	m	struct:singlePermission	typeref:struct:singlePermission::vehicleState
+head_t	libsvm/svm.cpp	/^	struct head_t$/;"	s	class:Cache	file:
+hexStr2int	ivSpec.cpp	/^int hexStr2int(char *hex) {$/;"	f
+hexStringToBytes	utils.cpp	/^int hexStringToBytes(uchar *bdst, uchar *hstr, int len) {$/;"	f
+hrule	portForward.h	/^	struct singleRule *hrule;    \/\/can be replaced by list$/;"	m	struct:formatRule	typeref:struct:formatRule::singleRule
+id	isoTp.h	/^	uint	id;$/;"	m	struct:ivCanFrameInfo
+index	libsvm/svm.cpp	/^	int *index;$/;"	m	class:SVR_Q	file:
+index	libsvm/svm.h	/^	int index;$/;"	m	struct:svm_node
+info	baksvm/svmDetect.cpp	/^static int (*info)(const char *fmt,...) = &myLog;$/;"	v	file:
+info	libsvm/svm.cpp	/^static void info(const char *fmt,...) {}$/;"	f	file:
+info	libsvm/svm.cpp	/^static void info(const char *fmt,...)$/;"	f	file:
+initControlInfo	portControl.cpp	/^void initControlInfo() {$/;"	f
+initControlRules	vehicle.cpp	/^struct ctrlAction* initControlRules(char *csv_actonRule){$/;"	f
+initFilterHookTable	portForward.cpp	/^void initFilterHookTable() {$/;"	f
+initFormatRule	portForward.cpp	/^void initFormatRule(){$/;"	f
+initIVActionInfo	vehicle.cpp	/^struct ivActionCtrl* initIVActionInfo(char *csv_action){$/;"	f
+initIVContextInfo	vehicle.cpp	/^struct ivSysInfo* initIVContextInfo(char *csv_context) {$/;"	f
+initIVSys	ivSpec.cpp	/^void initIVSys(){$/;"	f
+initLog	log.cpp	/^int initLog()$/;"	f
+initSID	portForward.cpp	/^void initSID(struct formatRule *rule,struct permissionRule *permission,int len,unsigned char *sid){$/;"	f
+initSVMModel	baksvm/svmDetect.cpp	/^bool initSVMModel() {$/;"	f
+initSinglePermission	portForward.cpp	/^void initSinglePermission(struct permissionRule* permission,int len,char *buff){$/;"	f
+initSingleRule	portForward.cpp	/^void initSingleRule(struct formatRule *rule,int len, char *buff){$/;"	f
+initSpec	ivSpec.cpp	/^int initSpec(char* dbc_file) {$/;"	f
+initUDSInfo	ivSpec.cpp	/^void initUDSInfo(){$/;"	f
+intToArray	utils.cpp	/^void intToArray(int data, byte* buff) {$/;"	f
+internalFrameHandler	portForward.cpp	/^int internalFrameHandler(struct can_frame *frame) {$/;"	f
+internalPortForward	portForward.cpp	/^int internalPortForward(void) {$/;"	f
+is_free	libsvm/svm.cpp	/^	bool is_free(int i) { return alpha_status[i] == FREE; }$/;"	f	class:Solver
+is_lower_bound	libsvm/svm.cpp	/^	bool is_lower_bound(int i) { return alpha_status[i] == LOWER_BOUND; }$/;"	f	class:Solver
+is_to_exit	canitf.h	/^	bool										is_to_exit;$/;"	m	struct:sysRunningStatus
+is_upper_bound	libsvm/svm.cpp	/^	bool is_upper_bound(int i) { return alpha_status[i] == UPPER_BOUND; }$/;"	f	class:Solver
+ivActionCtrl	portControl.h	/^struct ivActionCtrl {$/;"	s
+ivCanFrameInfo	isoTp.h	/^struct ivCanFrameInfo {$/;"	s
+ivFloatState	portContext.h	/^struct ivFloatState {$/;"	s
+ivInfoNode	baksvm/extFeature.h	/^struct ivInfoNode {$/;"	s
+ivIntState	portContext.h	/^struct ivIntState {$/;"	s
+iv_action_list	portControl.cpp	/^static struct ivActionCtrl *iv_action_list = NULL;$/;"	v	typeref:struct:ivActionCtrl	file:
+iv_info_idx	baksvm/extFeature.cpp	/^static uint iv_info_idx = 0;$/;"	v	file:
+iv_info_ring	baksvm/extFeature.cpp	/^static struct ivInfoNode	iv_info_ring[MAX_NODE_NUM];$/;"	v	typeref:struct:ivInfoNode	file:
+iv_sys_list	portContext.cpp	/^struct IVSysInfo	*iv_sys_list = NULL;$/;"	v	typeref:struct:IVSysInfo
+judgeOBDData	portForward.cpp	/^int judgeOBDData(uchar *buff,int len){$/;"	f
+judgeTPData	portForward.cpp	/^int judgeTPData(uchar *buff,int len,int data_type){$/;"	f
+judgeTPSetup	portForward.cpp	/^bool judgeTPSetup(struct can_frame *frame){$/;"	f
+judgeUDSData	portForward.cpp	/^int judgeUDSData(uchar *buff,int len,int data_type){$/;"	f
+judgeUDSSetup	portForward.cpp	/^bool judgeUDSSetup(struct can_frame *frame){$/;"	f
+k_function	libsvm/svm.cpp	/^double Kernel::k_function(const svm_node *x, const svm_node *y,$/;"	f	class:Kernel
+kernel_function	libsvm/svm.cpp	/^	double (Kernel::*kernel_function)(int i, int j) const;$/;"	m	class:Kernel	file:
+kernel_linear	libsvm/svm.cpp	/^	double kernel_linear(int i, int j) const$/;"	f	class:Kernel	file:
+kernel_poly	libsvm/svm.cpp	/^	double kernel_poly(int i, int j) const$/;"	f	class:Kernel	file:
+kernel_precomputed	libsvm/svm.cpp	/^	double kernel_precomputed(int i, int j) const$/;"	f	class:Kernel	file:
+kernel_rbf	libsvm/svm.cpp	/^	double kernel_rbf(int i, int j) const$/;"	f	class:Kernel	file:
+kernel_sigmoid	libsvm/svm.cpp	/^	double kernel_sigmoid(int i, int j) const$/;"	f	class:Kernel	file:
+kernel_type	libsvm/svm.cpp	/^	const int kernel_type;$/;"	m	class:Kernel	file:
+kernel_type	libsvm/svm.h	/^	int kernel_type;$/;"	m	struct:svm_parameter
+kernel_type_table	libsvm/svm.cpp	/^static const char *kernel_type_table[]=$/;"	v	file:
+kwp_permission	portForward.cpp	/^struct permissionRule kwp_permission[32];$/;"	v	typeref:struct:permissionRule
+kwp_rule	portForward.cpp	/^struct formatRule kwp_rule[32];$/;"	v	typeref:struct:formatRule
+l	libsvm/svm.cpp	/^	int l;$/;"	m	class:Cache	file:
+l	libsvm/svm.cpp	/^	int l;$/;"	m	class:SVR_Q	file:
+l	libsvm/svm.cpp	/^	int l;$/;"	m	class:Solver	file:
+l	libsvm/svm.h	/^	int l;			\/* total #SV *\/$/;"	m	struct:svm_model
+l	libsvm/svm.h	/^	int l;$/;"	m	struct:svm_problem
+label	libsvm/svm.h	/^	int *label;		\/* label of each class (label[k]) *\/$/;"	m	struct:svm_model
+last_time	portForward.cpp	/^ullong last_time;$/;"	v
+leave_session_request	ivSpec.h	/^	struct ivCanFrameInfo leave_session_request;$/;"	m	struct:IVSysInfo	typeref:struct:IVSysInfo::ivCanFrameInfo
+len	libsvm/svm.cpp	/^		int len;		\/\/ data[0,len) is cached in this entry$/;"	m	struct:Cache::head_t	file:
+len	portContext.h	/^	uint	len;$/;"	m	struct:cxtInfo
+len	portContext.h	/^	uint	len;$/;"	m	struct:cxtRequest
+length	isoTp.h	/^	uint	length;$/;"	m	struct:ivCanFrameInfo
+length	portForward.h	/^	Expression length;$/;"	m	struct:singleRule
+libsvm_version	libsvm/svm.cpp	/^int libsvm_version = LIBSVM_VERSION;$/;"	v
+line	baksvm/svmDetect.cpp	/^static char line[MAX_LINE_LEN];$/;"	v	file:
+line	libsvm/svm.cpp	/^static char *line = NULL;$/;"	v	file:
+llong	utils.h	/^typedef long long							llong;$/;"	t
+loadPermission	portForward.cpp	/^void loadPermission(struct permissionRule *permission,int len, char const *name){$/;"	f
+loadRules	portForward.cpp	/^void loadRules(struct formatRule *rule,int len, char const *name){$/;"	f
+logRxFrame	log.cpp	/^int logRxFrame(struct can_frame *frame)$/;"	f
+logSensor	log.cpp	/^int logSensor(double *data)$/;"	f
+logTxFrame	log.cpp	/^int logTxFrame(struct can_frame *frame)$/;"	f
+log_fd	log.cpp	/^static FILE *log_fd = NULL;$/;"	v	file:
+log_lock	log.cpp	/^static pthread_mutex_t	log_lock;$/;"	v	file:
+lru_delete	libsvm/svm.cpp	/^void Cache::lru_delete(head_t *h)$/;"	f	class:Cache
+lru_head	libsvm/svm.cpp	/^	head_t lru_head;$/;"	m	class:Cache	file:
+lru_insert	libsvm/svm.cpp	/^void Cache::lru_insert(head_t *h)$/;"	f	class:Cache
+main	canitf.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+max	libsvm/svm.cpp	/^template <class T> static inline T max(T x,T y) { return (x>y)?x:y; }$/;"	f	file:
+max_line_len	libsvm/svm.cpp	/^static int max_line_len;$/;"	v	file:
+min	libsvm/svm.cpp	/^template <class T> static inline T min(T x,T y) { return (x<y)?x:y; }$/;"	f	file:
+modelTest	portContext.cpp	/^void modelTest(char * logname){$/;"	f
+msgId	ivSpec.h	/^	char msgId[10];$/;"	m	struct:DBCItem
+msgName	ivSpec.h	/^	char msgName[128];$/;"	m	struct:DBCItem
+msgSize	ivSpec.h	/^	char msgSize[10];$/;"	m	struct:DBCItem
+msgTransmitter	ivSpec.h	/^	char msgTransmitter[20];$/;"	m	struct:DBCItem
+multiclass_probability	libsvm/svm.cpp	/^static void multiclass_probability(int k, double **r, double *p)$/;"	f	file:
+multipleFrame	portForward.h	/^struct multipleFrame{$/;"	s
+multiple_num	portForward.h	/^	int multiple_num;$/;"	m	struct:multipleFrame
+myLog	log.cpp	/^int myLog(const char *fmt, ...)$/;"	f
+nSV	libsvm/svm.h	/^	int *nSV;		\/* number of SVs for each class (nSV[k]) *\/$/;"	m	struct:svm_model
+name	ivSpec.h	/^	char name[128];$/;"	m	struct:IVAckInfo
+name	ivSpec.h	/^	char name[128];$/;"	m	struct:IVReqInfo
+name	ivSpec.h	/^	char name[128];$/;"	m	struct:IVSysInfo
+name	portContext.h	/^	char	name[32];$/;"	m	struct:cxtRequest
+name	portControl.h	/^	char		name[32];$/;"	m	struct:ivActionCtrl
+name	portControl.h	/^	char	name[100];$/;"	m	struct:ctrlAction
+next	ivSpec.h	/^	struct DBCItem *next;$/;"	m	struct:DBCItem	typeref:struct:DBCItem::DBCItem
+next	ivSpec.h	/^	struct IVReqInfo *next;$/;"	m	struct:IVReqInfo	typeref:struct:IVReqInfo::IVReqInfo
+next	ivSpec.h	/^	struct IVSysInfo *next;$/;"	m	struct:IVSysInfo	typeref:struct:IVSysInfo::IVSysInfo
+next	libsvm/svm.cpp	/^		head_t *prev, *next;	\/\/ a circular list$/;"	m	struct:Cache::head_t	file:
+next	portContext.h	/^	struct cxtRequest *next;$/;"	m	struct:cxtRequest	typeref:struct:cxtRequest::cxtRequest
+next	portContext.h	/^	struct recordData *next;$/;"	m	struct:recordData	typeref:struct:recordData::recordData
+next	portControl.h	/^	struct ctrlAction *next;$/;"	m	struct:ctrlAction	typeref:struct:ctrlAction::ctrlAction
+next	portControl.h	/^	struct ivActionCtrl *next;$/;"	m	struct:ivActionCtrl	typeref:struct:ivActionCtrl::ivActionCtrl
+next	portForward.h	/^	struct canFrameFilter *next;$/;"	m	struct:canFrameFilter	typeref:struct:canFrameFilter::canFrameFilter
+next	portForward.h	/^    struct condition *next;$/;"	m	struct:condition	typeref:struct:condition::condition
+next	portForward.h	/^    struct singlePermission *next;$/;"	m	struct:singlePermission	typeref:struct:singlePermission::singlePermission
+next	portForward.h	/^    struct singleRule *next;$/;"	m	struct:singleRule	typeref:struct:singleRule::singleRule
+next	portForward.h	/^    struct vehicleState *next;$/;"	m	struct:vehicleState	typeref:struct:vehicleState::vehicleState
+next_buffer	libsvm/svm.cpp	/^	mutable int next_buffer;$/;"	m	class:SVR_Q	file:
+notifyCxtInfo	portContext.cpp	/^void notifyCxtInfo(ullong ts, ushort sid, ushort pid, double res) {$/;"	f
+nr_class	libsvm/svm.h	/^	int nr_class;		\/* number of classes, = 2 in regression\/one class svm *\/$/;"	m	struct:svm_model
+nr_weight	libsvm/svm.h	/^	int nr_weight;		\/* for C_SVC *\/$/;"	m	struct:svm_parameter
+nu	libsvm/svm.h	/^	double nu;	\/* for NU_SVC, ONE_CLASS, and NU_SVR *\/$/;"	m	struct:svm_parameter
+number	portControl.h	/^	int		number;$/;"	m	struct:ctrlAction
+number	portForward.h	/^    int number;$/;"	m	struct:permissionRule
+obdCanPortState	obdPort.h	/^struct obdCanPortState {$/;"	s
+obdContextData	portContext.h	/^struct obdContextData {$/;"	s
+obdContextInfo	portContext.h	/^struct obdContextInfo {$/;"	s
+obdService	portContext.h	/^enum obdService { \/\/ ISO 15031-5$/;"	g
+obd_cxt_str	obdCxtStr.cpp	/^const char *obd_cxt_str[] = {$/;"	v
+obd_permission	portForward.cpp	/^struct permissionRule obd_permission[9];$/;"	v	typeref:struct:permissionRule
+obd_port_state	obdPort.h	/^	uchar		obd_port_state;				\/\/ The port states$/;"	m	struct:obdCanPortState
+obd_rule	portForward.cpp	/^struct formatRule obd_rule[9];$/;"	v	typeref:struct:formatRule
+obd_state	portForward.cpp	/^struct startDiagnosis *obd_state;$/;"	v	typeref:struct:startDiagnosis
+obj	libsvm/svm.cpp	/^		double obj;$/;"	m	struct:Solver::SolutionInfo	file:
+onNewClient	canitf.cpp	/^void onNewClient(void) {$/;"	f
+onboardPortState	onboard.h	/^struct onboardPortState {$/;"	s
+onboard_thread	canitf.h	/^	pthread_t								onboard_thread;$/;"	m	struct:sysRunningStatus
+p	libsvm/svm.cpp	/^	double *p;$/;"	m	class:Solver	file:
+p	libsvm/svm.h	/^	double p;	\/* for EPSILON_SVR *\/$/;"	m	struct:svm_parameter
+param	libsvm/svm.h	/^	struct svm_parameter param;	\/* parameter *\/$/;"	m	struct:svm_model	typeref:struct:svm_model::svm_parameter
+parameteres	portForward.h	/^	double parameteres[10];$/;"	m	struct:expression
+parameteres_len	portForward.h	/^	int parameteres_len;$/;"	m	struct:expression
+parseIVCxtAck	ivSpec.cpp	/^bool parseIVCxtAck(struct IVCxtInfo* cxt_info,unsigned char* testResp,int len) {$/;"	f
+payload	portContext.h	/^	uchar	payload[MAX_LOAD_SIZE];$/;"	m	struct:cxtRequest
+permissionRule	portForward.h	/^struct permissionRule{$/;"	s
+pid	portContext.h	/^	uint	pid;$/;"	m	struct:obdContextData
+pid	portContext.h	/^	uint pid;$/;"	m	struct:udsContextData
+pid	portControl.h	/^	int		pid[100];\/\/MAX_CONDITION_LENGTH$/;"	m	struct:ctrlAction
+powi	libsvm/svm.cpp	/^static inline double powi(double base, int times)$/;"	f	file:
+predict	baksvm/svmDetect.cpp	/^double predict( double *feature ) {$/;"	f
+predict_probability	baksvm/svmDetect.cpp	/^static int predict_probability = 0;$/;"	v	file:
+prefix	ivSpec.cpp	/^bool prefix(const char *pre, const char *str)$/;"	f
+prev	libsvm/svm.cpp	/^		head_t *prev, *next;	\/\/ a circular list$/;"	m	struct:Cache::head_t	file:
+printDBCItemInfo	ivSpec.cpp	/^void printDBCItemInfo(struct DBCItem *dbc_item_list){$/;"	f
+print_string_stdout	libsvm/svm.cpp	/^static void print_string_stdout(const char *s)$/;"	f	file:
+probA	libsvm/svm.h	/^	double *probA;		\/* pariwise probability information *\/$/;"	m	struct:svm_model
+probB	libsvm/svm.h	/^	double *probB;$/;"	m	struct:svm_model
+probability	libsvm/svm.h	/^	int probability; \/* do probability estimates *\/$/;"	m	struct:svm_parameter
+processClientMsg	clientCom.cpp	/^static void processClientMsg(unsigned char *buff, int length){$/;"	f	file:
+putNewCxtData	portContext.cpp	/^static struct cxtInfo* putNewCxtData(struct cxtRequest *cxt_req, uchar *ack_data, uint len) {$/;"	f	file:
+qts	portContext.h	/^	ullong	qts[196];$/;"	m	struct:obdContextInfo
+querySupportedPids	portContext.cpp	/^static uint querySupportedPids(ushort req_sid, ushort rep_sid, uchar sid, uchar offset) {$/;"	f	file:
+quitCurrentSession	portContext.cpp	/^void quitCurrentSession(struct IVSysInfo *iv_sys) {$/;"	f
+r	libsvm/svm.cpp	/^		double r;	\/\/ for Solver_NU$/;"	m	struct:Solver::SolutionInfo	file:
+r_head	portContext.cpp	/^static uchar *r_head = cxt_ring_buf;$/;"	v	file:
+r_tail	portContext.cpp	/^static uchar *r_tail = cxt_ring_buf;$/;"	v	file:
+readFile	ivSpec.cpp	/^char* readFile(char *filename)$/;"	f
+readFrame	obdPort.cpp	/^int readFrame(uint can_fd, struct can_frame *frame) {$/;"	f
+read_model_header	libsvm/svm.cpp	/^bool read_model_header(FILE *fp, svm_model* model)$/;"	f
+read_thread	onboard.h	/^	pthread_t				read_thread;$/;"	m	struct:onboardPortState
+readline	libsvm/svm.cpp	/^static char* readline(FILE *input)$/;"	f	file:
+receiveClientCommand	clientCom.cpp	/^void receiveClientCommand(void (*newClientHandler)()) {$/;"	f
+receive_UDP	udp.cpp	/^int receive_UDP(){$/;"	f
+reconstruct_gradient	libsvm/svm.cpp	/^void Solver::reconstruct_gradient()$/;"	f	class:Solver
+recordData	portContext.h	/^struct recordData{$/;"	s
+remain	portForward.h	/^    char* remain;$/;"	m	struct:splitString
+removeSpacePrefixOfString	dbcSpec.h	/^void removeSpacePrefixOfString(char* str){$/;"	f
+req	portContext.h	/^	struct cxtRequest*	req;$/;"	m	struct:cxtInfo	typeref:struct:cxtInfo::cxtRequest
+req_data	ivSpec.h	/^	unsigned char req_data[MAX_CAN_PAYLOAD];$/;"	m	struct:IVReqInfo
+req_data	portControl.h	/^	uchar		req_data[MAX_LOAD_SIZE];$/;"	m	struct:ivActionCtrl
+req_id	ivSpec.h	/^	unsigned short req_id; \/\/ The functional reqeust id$/;"	m	struct:DBCItem
+req_id	ivSpec.h	/^	ushort req_id;$/;"	m	struct:IVReqInfo
+req_id	ivSpec.h	/^	ushort req_id;$/;"	m	struct:IVSysInfo
+req_id	portControl.h	/^	ushort	req_id;$/;"	m	struct:ivActionCtrl
+req_len	ivSpec.h	/^	int req_len;$/;"	m	struct:IVReqInfo
+req_len	portControl.h	/^	uint		req_len;$/;"	m	struct:ivActionCtrl
+req_list	ivSpec.h	/^	struct IVReqInfo *req_list;$/;"	m	struct:IVSysInfo	typeref:struct:IVSysInfo::IVReqInfo
+res	portContext.h	/^	float		res[196];$/;"	m	struct:obdContextInfo
+res	portContext.h	/^	uint	res;$/;"	m	struct:obdContextData
+res	portContext.h	/^	uint res;$/;"	m	struct:udsContextData
+res	portForward.h	/^    char* res;$/;"	m	struct:splitString
+result	ivSpec.h	/^	float result;$/;"	m	struct:IVAckInfo
+result	ivSpec.h	/^	float result;$/;"	m	struct:IVCxtInfo
+retrieveOBDCxt	portContext.cpp	/^static int retrieveOBDCxt(ushort req_cid, ushort ack_cid, uchar *tx_buf, uint len, uchar *rx_buf, uint rx_max_len) {$/;"	f	file:
+retrieveOBDInfo	portContext.cpp	/^static void retrieveOBDInfo(uchar sid) {$/;"	f	file:
+retrieveOBDPIDInfo	portContext.cpp	/^static void retrieveOBDPIDInfo(struct obdContextInfo *obd_cxt, ushort req_cid, ushort ack_cid, uchar sid, uint s_pids, uchar offset) {$/;"	f	file:
+retrieveSysInfo	portContext.cpp	/^static void retrieveSysInfo() {$/;"	f	file:
+retrieveUDSCxt	portContext.cpp	/^static int retrieveUDSCxt(ushort req_cid, ushort ack_cid, uchar *tx_buf, uint len, uchar *rx_buf, uint rx_max_len){$/;"	f	file:
+retrieveUDSInfo	portContext.cpp	/^static bool retrieveUDSInfo(uchar sid,struct IVReqInfo *req_list_head){$/;"	f	file:
+rho	libsvm/svm.cpp	/^		double rho;$/;"	m	struct:Solver::SolutionInfo	file:
+rho	libsvm/svm.cpp	/^	double rho;$/;"	m	struct:decision_function	file:
+rho	libsvm/svm.h	/^	double *rho;		\/* constants in decision functions (rho[k*(k-1)\/2]) *\/$/;"	m	struct:svm_model
+rpm	portContext.h	/^	struct ivFloatState		rpm;$/;"	m	struct:vehicleRunState	typeref:struct:vehicleRunState::ivFloatState
+run_mode	canitf.h	/^	uint										run_mode;$/;"	m	struct:sysRunningStatus
+rx	onboard.h	/^	int rx;$/;"	m	struct:axis_data
+rxCanFrame	obdPort.cpp	/^int rxCanFrame(uint can_sk, struct can_frame *frame, uint us) {$/;"	f
+rxContextFrameHandler	portContext.cpp	/^int rxContextFrameHandler(struct can_frame *frame, uint load_size) {$/;"	f
+rxPayload	isoTp.cpp	/^uint rxPayload(uint can_sk, ushort src_id, ushort dst_id, uchar* buff, uint size, int (*frameHandler)(struct can_frame *, uint)) {$/;"	f
+rx_frame_num	obdPort.h	/^	uint		rx_frame_num;					\/\/ The number of received can frames$/;"	m	struct:obdCanPortState
+rx_thread	obdPort.h	/^	pthread_t				rx_thread;$/;"	m	struct:obdCanPortState
+ry	onboard.h	/^	int ry;$/;"	m	struct:axis_data
+rz	onboard.h	/^	int rz;$/;"	m	struct:axis_data
+s_model	baksvm/svmDetect.cpp	/^static svm_model *s_model = NULL;$/;"	v	file:
+saveResultInFile	ivSpec.cpp	/^void saveResultInFile(float result, char* sensorName, char* sensorUnit){$/;"	f
+schar	libsvm/svm.cpp	/^typedef signed char schar;$/;"	t	file:
+select_working_set	libsvm/svm.cpp	/^int Solver::select_working_set(int &out_i, int &out_j)$/;"	f	class:Solver
+select_working_set	libsvm/svm.cpp	/^int Solver_NU::select_working_set(int &out_i, int &out_j)$/;"	f	class:Solver_NU
+sendBuildSessionRequest	portContext.cpp	/^static void sendBuildSessionRequest(uint sk, uint id, struct IVSysInfo *iv_sys) {$/;"	f	file:
+sendLeaveSessionRequest	portContext.cpp	/^static void sendLeaveSessionRequest(uint sk, uint id, struct IVSysInfo *iv_sys){$/;"	f	file:
+sensorName	ivSpec.h	/^	char sensorName[100];$/;"	m	struct:IVCxtInfo
+sensorRead	onboard.cpp	/^static int sensorRead() {$/;"	f	file:
+sensorUnit	ivSpec.h	/^	char sensorUnit[10];$/;"	m	struct:IVCxtInfo
+sensorWriteEnable	onboard.cpp	/^static int sensorWriteEnable(int isEnable) {$/;"	f	file:
+sensor_data_matrix	baksvm/extFeature.cpp	/^static double sensor_data_matrix[MAX_NODE_NUM][6];$/;"	v	file:
+sensor_info	canitf.h	/^	struct onboardPortState	*sensor_info;$/;"	m	struct:sysRunningStatus	typeref:struct:sysRunningStatus::onboardPortState
+sensor_lock	onboard.h	/^	pthread_mutex_t	sensor_lock;$/;"	m	struct:onboardPortState
+sensor_matrix_row	baksvm/extFeature.cpp	/^static int sensor_matrix_row = 0;$/;"	v	file:
+service01PIDS	portContext.h	/^} service01PIDS;$/;"	t	typeref:enum:__anon14
+serviceID	portForward.h	/^	uchar serviceID;$/;"	m	struct:formatRule
+serviceID	portForward.h	/^    uchar serviceID;$/;"	m	struct:permissionRule
+setSeed	portControl.cpp	/^void setSeed(){$/;"	f
+shrinking	libsvm/svm.h	/^	int shrinking;	\/* use the shrinking heuristics *\/$/;"	m	struct:svm_parameter
+si	libsvm/svm.cpp	/^	SolutionInfo *si;$/;"	m	class:Solver_NU	file:
+sid	portContext.h	/^	uchar	sid;	\/\/ Service ID$/;"	m	struct:cxtRequest
+sid	portContext.h	/^	uint	sid;$/;"	m	struct:obdContextData
+sid	portContext.h	/^	uint sid;$/;"	m	struct:udsContextData
+sigHandler	canitf.cpp	/^static void sigHandler(int sig, siginfo_t *siginfo, void *context) {$/;"	f	file:
+sigQuitHandler	canitf.cpp	/^void sigQuitHandler(int signo) {$/;"	f
+sigmoid_predict	libsvm/svm.cpp	/^static double sigmoid_predict(double decision_value, double A, double B)$/;"	f	file:
+sigmoid_train	libsvm/svm.cpp	/^static void sigmoid_train($/;"	f	file:
+sign	libsvm/svm.cpp	/^	schar *sign;$/;"	m	class:SVR_Q	file:
+signalFactorList	ivSpec.h	/^	char* signalFactorList[10];$/;"	m	struct:DBCItem
+signalFormat	ivSpec.h	/^	char signalFormat[10];$/;"	m	struct:DBCItem
+signalNameList	ivSpec.h	/^	char* signalNameList[10];$/;"	m	struct:DBCItem
+signalNumber	ivSpec.h	/^	int signalNumber = 0;$/;"	m	struct:DBCItem
+signalOffsetList	ivSpec.h	/^	char* signalOffsetList[10];$/;"	m	struct:DBCItem
+signalSignedOrUnsigned	ivSpec.h	/^	char signalSignedOrUnsigned[10];$/;"	m	struct:DBCItem
+signalSizeList	ivSpec.h	/^	char* signalSizeList[10];$/;"	m	struct:DBCItem
+signalStartBitList	ivSpec.h	/^	char* signalStartBitList[10];$/;"	m	struct:DBCItem
+signalUnitList	ivSpec.h	/^	char* signalUnitList[10];$/;"	m	struct:DBCItem
+singlePermission	portForward.h	/^struct singlePermission{$/;"	s
+singleRule	portForward.h	/^struct singleRule{$/;"	s
+size	libsvm/svm.cpp	/^	long int size;$/;"	m	class:Cache	file:
+solve_c_svc	libsvm/svm.cpp	/^static void solve_c_svc($/;"	f	file:
+solve_epsilon_svr	libsvm/svm.cpp	/^static void solve_epsilon_svr($/;"	f	file:
+solve_nu_svc	libsvm/svm.cpp	/^static void solve_nu_svc($/;"	f	file:
+solve_nu_svr	libsvm/svm.cpp	/^static void solve_nu_svr($/;"	f	file:
+solve_one_class	libsvm/svm.cpp	/^static void solve_one_class($/;"	f	file:
+speed	portContext.h	/^	struct ivFloatState		speed;$/;"	m	struct:vehicleRunState	typeref:struct:vehicleRunState::ivFloatState
+split	portForward.cpp	/^struct splitString *split(char *buff,char const *delimiter){$/;"	f
+splitString	portForward.h	/^typedef struct splitString{$/;"	s
+st	portContext.h	/^	double st=0;$/;"	m	struct:ivFloatState
+st	portContext.h	/^	int		 st;$/;"	m	struct:ivIntState
+startContextMode	portContext.cpp	/^void startContextMode() {$/;"	f
+startDiagnosis	portForward.h	/^struct startDiagnosis {$/;"	s
+startOBDIPS	canitf.cpp	/^static void startOBDIPS() {$/;"	f	file:
+startReadOnboardSensor	onboard.cpp	/^void startReadOnboardSensor() {$/;"	f
+startTime	portForward.h	/^	ullong startTime;$/;"	m	struct:startDiagnosis
+stateInfer	baksvm/svmDetect.cpp	/^void stateInfer() {$/;"	f
+state_type	portForward.h	/^    int state_type;$/;"	m	struct:vehicleState
+status	portForward.h	/^	int status;$/;"	m	struct:startDiagnosis
+steer	portContext.h	/^	struct ivFloatState		steer;$/;"	m	struct:vehicleRunState	typeref:struct:vehicleRunState::ivFloatState
+storeDBCItemIdNameSize	ivSpec.cpp	/^void storeDBCItemIdNameSize(struct DBCItem* dbc_item_list, char* msgIdSrc, char* msgNameSrc, char* msgSizeSrc, char* msgTransmitterSrc){$/;"	f
+storeSignalStartBit_Size_Factor_Offset_Unit	ivSpec.cpp	/^void storeSignalStartBit_Size_Factor_Offset_Unit(struct DBCItem* dbc_item_list, \\$/;"	f
+stringEqual	ivSpec.cpp	/^bool stringEqual(char* str1, char* str2){$/;"	f
+stringSpaceTrim	ivSpec.cpp	/^char *stringSpaceTrim(char *s)$/;"	f
+sv_coef	libsvm/svm.h	/^	double **sv_coef;	\/* coefficients for SVs in decision functions (sv_coef[k-1][l]) *\/$/;"	m	struct:svm_model
+sv_indices	libsvm/svm.h	/^	int *sv_indices;        \/* sv_indices[0,...,nSV-1] are values in [1,...,num_traning_data] to indicate SVs in the training set *\/$/;"	m	struct:svm_model
+svm_binary_svc_probability	libsvm/svm.cpp	/^static void svm_binary_svc_probability($/;"	f	file:
+svm_check_parameter	libsvm/svm.cpp	/^const char *svm_check_parameter(const svm_problem *prob, const svm_parameter *param)$/;"	f
+svm_check_probability_model	libsvm/svm.cpp	/^int svm_check_probability_model(const svm_model *model)$/;"	f
+svm_cross_validation	libsvm/svm.cpp	/^void svm_cross_validation(const svm_problem *prob, const svm_parameter *param, int nr_fold, double *target)$/;"	f
+svm_destroy_param	libsvm/svm.cpp	/^void svm_destroy_param(svm_parameter* param)$/;"	f
+svm_free_and_destroy_model	libsvm/svm.cpp	/^void svm_free_and_destroy_model(svm_model** model_ptr_ptr)$/;"	f
+svm_free_model_content	libsvm/svm.cpp	/^void svm_free_model_content(svm_model* model_ptr)$/;"	f
+svm_get_labels	libsvm/svm.cpp	/^void svm_get_labels(const svm_model *model, int* label)$/;"	f
+svm_get_nr_class	libsvm/svm.cpp	/^int svm_get_nr_class(const svm_model *model)$/;"	f
+svm_get_nr_sv	libsvm/svm.cpp	/^int svm_get_nr_sv(const svm_model *model)$/;"	f
+svm_get_sv_indices	libsvm/svm.cpp	/^void svm_get_sv_indices(const svm_model *model, int* indices)$/;"	f
+svm_get_svm_type	libsvm/svm.cpp	/^int svm_get_svm_type(const svm_model *model)$/;"	f
+svm_get_svr_probability	libsvm/svm.cpp	/^double svm_get_svr_probability(const svm_model *model)$/;"	f
+svm_group_classes	libsvm/svm.cpp	/^static void svm_group_classes(const svm_problem *prob, int *nr_class_ret, int **label_ret, int **start_ret, int **count_ret, int *perm)$/;"	f	file:
+svm_load_model	libsvm/svm.cpp	/^svm_model *svm_load_model(const char *model_file_name)$/;"	f
+svm_model	libsvm/svm.h	/^struct svm_model$/;"	s
+svm_node	libsvm/svm.h	/^struct svm_node$/;"	s
+svm_parameter	libsvm/svm.h	/^struct svm_parameter$/;"	s
+svm_predict	libsvm/svm.cpp	/^double svm_predict(const svm_model *model, const svm_node *x)$/;"	f
+svm_predict_probability	libsvm/svm.cpp	/^double svm_predict_probability($/;"	f
+svm_predict_values	libsvm/svm.cpp	/^double svm_predict_values(const svm_model *model, const svm_node *x, double* dec_values)$/;"	f
+svm_print_string	libsvm/svm.cpp	/^static void (*svm_print_string) (const char *) = &print_string_stdout;$/;"	v	file:
+svm_problem	libsvm/svm.h	/^struct svm_problem$/;"	s
+svm_save_model	libsvm/svm.cpp	/^int svm_save_model(const char *model_file_name, const svm_model *model)$/;"	f
+svm_set_print_string_function	libsvm/svm.cpp	/^void svm_set_print_string_function(void (*print_func)(const char *))$/;"	f
+svm_svr_probability	libsvm/svm.cpp	/^static double svm_svr_probability($/;"	f	file:
+svm_train	libsvm/svm.cpp	/^svm_model *svm_train(const svm_problem *prob, const svm_parameter *param)$/;"	f
+svm_train_one	libsvm/svm.cpp	/^static decision_function svm_train_one($/;"	f	file:
+svm_type	libsvm/svm.h	/^	int svm_type;$/;"	m	struct:svm_parameter
+svm_type_table	libsvm/svm.cpp	/^static const char *svm_type_table[] =$/;"	v	file:
+swap	libsvm/svm.cpp	/^template <class T> static inline void swap(T& x, T& y) { T t=x; x=y; y=t; }$/;"	f	file:
+swap_index	libsvm/svm.cpp	/^	virtual void swap_index(int i, int j) const	\/\/ no so const...$/;"	f	class:Kernel
+swap_index	libsvm/svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:ONE_CLASS_Q
+swap_index	libsvm/svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:SVC_Q
+swap_index	libsvm/svm.cpp	/^	void swap_index(int i, int j) const$/;"	f	class:SVR_Q
+swap_index	libsvm/svm.cpp	/^void Cache::swap_index(int i, int j)$/;"	f	class:Cache
+swap_index	libsvm/svm.cpp	/^void Solver::swap_index(int i, int j)$/;"	f	class:Solver
+symbol	portControl.h	/^	int		symbol[100];$/;"	m	struct:ctrlAction
+symbol	portForward.h	/^	int symbol;$/;"	m	struct:expression
+sysRunningStatus	canitf.h	/^struct sysRunningStatus {$/;"	s
+sys_state	canitf.cpp	/^struct sysRunningStatus *sys_state;$/;"	v	typeref:struct:sysRunningStatus
+threadClient	canitf.cpp	/^void* threadClient(void *arg) {$/;"	f
+threadExternalPort	canitf.cpp	/^void *threadExternalPort(void *art) { \/\/ CAN1$/;"	f
+threadInternalPort	canitf.cpp	/^void *threadInternalPort(void *arg) { \/\/ Woring on CAN0 port mainly$/;"	f
+threadOnboard	canitf.cpp	/^void* threadOnboard(void *art) {$/;"	f
+tp_state	portForward.cpp	/^struct startDiagnosis *tp_state;$/;"	v	typeref:struct:startDiagnosis
+ts	baksvm/extFeature.h	/^	ullong ts;$/;"	m	struct:gyInfoNode
+ts	baksvm/extFeature.h	/^	ullong ts;$/;"	m	struct:ivInfoNode
+ts	portContext.h	/^	ullong	ts;$/;"	m	struct:cxtInfo
+ts	portContext.h	/^	ullong ts;$/;"	m	struct:ivIntState
+ts	portContext.h	/^	ullong ts;$/;"	m	struct:recordData
+ts	portContext.h	/^	ullong ts=0;$/;"	m	struct:ivFloatState
+ts1	portContext.h	/^	uint	ts1;$/;"	m	struct:obdContextData
+ts1	portContext.h	/^	uint ts1;$/;"	m	struct:udsContextData
+ts2	portContext.h	/^	uint	ts2;$/;"	m	struct:obdContextData
+ts2	portContext.h	/^	uint ts2;$/;"	m	struct:udsContextData
+txCF	isoTp.cpp	/^static uint txCF(uint sk, ushort can_id, uchar sn, uchar* data, uint len) {$/;"	f	file:
+txCanFrame	obdPort.cpp	/^void txCanFrame(uint can_sk, uint id, uchar* data, uint length) {$/;"	f
+txClientCanFrame	clientCom.cpp	/^int txClientCanFrame(uint portNum, uint seqId, uint canId, uchar* buff, uint length) {$/;"	f
+txClientDecision	clientCom.cpp	/^int txClientDecision(uchar *buff,uint length){$/;"	f
+txClientSensorData	clientCom.cpp	/^int txClientSensorData(uchar* buff, uint length) {$/;"	f
+txCxtPayload	clientCom.cpp	/^int txCxtPayload(uchar* buff, uint length) {$/;"	f
+txFC	isoTp.cpp	/^static uint txFC(uint sk, ushort can_id, uchar fs, uchar bs, uchar st_min) {$/;"	f	file:
+txFF	isoTp.cpp	/^static uint txFF(uint sk, ushort can_id, uchar* data, uint payload_len) {$/;"	f	file:
+txPayload	isoTp.cpp	/^uint txPayload(uint can_sk, ushort src_id, ushort dst_id, uchar* data, uint size) {$/;"	f
+txSF	isoTp.cpp	/^static uint txSF(uint sk, ushort can_id, uchar* data, uint len) {$/;"	f	file:
+tx_frame_num	obdPort.h	/^	uint		tx_frame_num;					\/\/ The number of transmitted CAN frames$/;"	m	struct:obdCanPortState
+tx_thread	obdPort.h	/^	pthread_t				tx_thread;$/;"	m	struct:obdCanPortState
+type	baksvm/extFeature.h	/^	uint   type;$/;"	m	struct:ivInfoNode
+type	portContext.h	/^	int type;\/\/0:can_frame 1:sensor$/;"	m	struct:recordData
+types	portForward.h	/^	int types;$/;"	m	struct:formatRule
+uchar	utils.h	/^typedef unsigned char					uchar;$/;"	t
+udsContextData	portContext.h	/^struct udsContextData {$/;"	s
+uds_permission	portForward.cpp	/^struct permissionRule uds_permission[26];$/;"	v	typeref:struct:permissionRule
+uds_rule	portForward.cpp	/^struct formatRule uds_rule[26];$/;"	v	typeref:struct:formatRule
+uint	utils.h	/^typedef unsigned int					uint;$/;"	t
+ullong	utils.h	/^typedef unsigned long long		ullong;$/;"	t
+ulong	utils.h	/^typedef unsigned long					ulong;$/;"	t
+unit	ivSpec.h	/^	char unit[100];$/;"	m	struct:IVAckInfo
+unshrink	libsvm/svm.cpp	/^	bool unshrink;	\/\/ XXX$/;"	m	class:Solver	file:
+update_alpha_status	libsvm/svm.cpp	/^	void update_alpha_status(int i)$/;"	f	class:Solver
+upper_bound_n	libsvm/svm.cpp	/^		double upper_bound_n;$/;"	m	struct:Solver::SolutionInfo	file:
+upper_bound_p	libsvm/svm.cpp	/^		double upper_bound_p;$/;"	m	struct:Solver::SolutionInfo	file:
+used_req_info	ivSpec.cpp	/^struct IVReqInfo *used_req_info = NULL;$/;"	v	typeref:struct:IVReqInfo
+used_sys_list	ivSpec.cpp	/^struct IVSysInfo *used_sys_list = NULL;$/;"	v	typeref:struct:IVSysInfo
+ushort	utils.h	/^typedef unsigned short				ushort;$/;"	t
+v_run_state	portContext.cpp	/^struct vehicleRunState v_run_state;$/;"	v	typeref:struct:vehicleRunState
+value	baksvm/extFeature.h	/^	double value;$/;"	m	struct:ivInfoNode
+value	clientCom.h	/^  float  value;$/;"	m	struct:comIVContextInfo
+value	libsvm/svm.h	/^	double value;$/;"	m	struct:svm_node
+value	portControl.h	/^	double	value[100];     $/;"	m	struct:ctrlAction
+vec_name	ivSpec.h	/^	char vec_name[255];$/;"	m	struct:DBCItem
+vehicleRunState	portContext.h	/^struct vehicleRunState {$/;"	s
+vehicleState	portForward.h	/^struct vehicleState{$/;"	s
+waitFC	isoTp.cpp	/^static uchar* waitFC(uint can_sk, ushort src_id, struct can_frame *frame) {$/;"	f	file:
+waitInCxt	utils.cpp	/^void waitInCxt(int max_us) {$/;"	f
+waitSessionResponse	portContext.cpp	/^static bool waitSessionResponse(uint sk, int id) {$/;"	f	file:
+weight	libsvm/svm.h	/^	double* weight;		\/* for C_SVC *\/$/;"	m	struct:svm_parameter
+weight_label	libsvm/svm.h	/^	int *weight_label;	\/* for C_SVC *\/$/;"	m	struct:svm_parameter
+writeFrame	obdPort.cpp	/^int writeFrame(uint can_fd, struct can_frame *frame, uint len) {$/;"	f
+x	libsvm/svm.cpp	/^	const svm_node **x;$/;"	m	class:Kernel	file:
+x	libsvm/svm.h	/^	struct svm_node **x;$/;"	m	struct:svm_problem	typeref:struct:svm_problem::svm_node
+x	onboard.h	/^	int x;$/;"	m	struct:axis_data
+x_node	baksvm/svmDetect.cpp	/^static svm_node  x_node[MAX_NR_ATTR];$/;"	v	file:
+x_square	libsvm/svm.cpp	/^	double *x_square;$/;"	m	class:Kernel	file:
+y	libsvm/svm.cpp	/^	schar *y;$/;"	m	class:SVC_Q	file:
+y	libsvm/svm.cpp	/^	schar *y;$/;"	m	class:Solver	file:
+y	libsvm/svm.h	/^	double *y;$/;"	m	struct:svm_problem
+y	onboard.h	/^	int y;$/;"	m	struct:axis_data
+z	onboard.h	/^	int z;$/;"	m	struct:axis_data
+~Cache	libsvm/svm.cpp	/^Cache::~Cache()$/;"	f	class:Cache
+~Kernel	libsvm/svm.cpp	/^Kernel::~Kernel()$/;"	f	class:Kernel
+~ONE_CLASS_Q	libsvm/svm.cpp	/^	~ONE_CLASS_Q()$/;"	f	class:ONE_CLASS_Q
+~QMatrix	libsvm/svm.cpp	/^	virtual ~QMatrix() {}$/;"	f	class:QMatrix
+~SVC_Q	libsvm/svm.cpp	/^	~SVC_Q()$/;"	f	class:SVC_Q
+~SVR_Q	libsvm/svm.cpp	/^	~SVR_Q()$/;"	f	class:SVR_Q
+~Solver	libsvm/svm.cpp	/^	virtual ~Solver() {};$/;"	f	class:Solver

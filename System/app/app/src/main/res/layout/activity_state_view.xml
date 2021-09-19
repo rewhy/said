@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StateView">
+
+
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#161111">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <SeekBar
+                android:id="@+id/main_sb_rpm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="8000"
+                android:progress="0" />
+
+            <SeekBar
+                android:id="@+id/main_sb_speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="500"
+                android:progress="0" />
+
+        </LinearLayout>
+
+        <cn.uprogrammer.sensordatacollect.view.InformationView
+            android:id="@+id/main_information_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/speedo_layer1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/speedo_layer2_off" />
+
+        <cn.uprogrammer.sensordatacollect.view.RpmIndicatorView
+            android:id="@+id/main_riv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/speedo_layer2_on" />
+
+        <ImageView
+            android:id="@+id/click"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/speedo_layer3" />
+
+        <cn.uprogrammer.sensordatacollect.view.SpeedIndicatorView
+            android:id="@+id/main_siv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

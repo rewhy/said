@@ -1,0 +1,7 @@
+openwindow,1,1,1,20,120
+centrallockindicatorlight,1,1,1,20,5
+frontdriverside_closewindow,1,1,1,20,0
+reardriverside_closewindow,1,1,1,20,5
+frontpassenger_closewindow,1,1,1,20,5
+rearpassenger_closewindow,1,1,1,20,5
+turn_signal_lamp,1,1,11,0,5

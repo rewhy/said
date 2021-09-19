@@ -1,0 +1,30 @@
+BO_ 4784 Acc_Sword: 8 07E0,07E8
+ SG_ Acc_Sword : 31|16@0- (0.001,0) [-100,100] "m/s^2" EON
+BO_ 4138 Throttle_Acceleration_Plate_Voltage: 8 07E0,07E8
+ SG_ Throttle_Acceleration_Plate_Voltage : 31|8@0+ (0.2,0) [0,1000] "V" EON
+BO_ 4247 Pwr_Sword: 8 07E0,07E8
+ SG_ Pwr_Sword : 31|8@0+ (10,0) [0,1000] "" EON
+BO_ 62524 Catalyst_Temperature: 8 07E0,07E8
+ SG_ Catalyst_Temperature : 31|8@0+ (0.1,-40) [0,1000] "" EON
+BO_ 4188 Brake_Pressure: 8 07E0,07E8
+ SG_ Brake_Pressure : 31|16@0- (0.01,0) [0,1000] "" EON
+BO_ 62537 Accelerator: 8 07E0,07E8
+ SG_ Accelerator : 31|8@0+ (1,0) [0,100] "" EON
+BO_ 62476 RPM: 8 07E0,07E8
+ SG_ RPM : 31|16@0+ (0.25,0) [0,1000] "" EON
+BO_ 62477 Speed: 8 07E0,07E8
+ SG_ Speed : 31|8@0+ (1,0) [0,1000] "" EON
+BO_ 5585 Lateral_Acc: 8 07E0,07E8
+ SG_ Lateral_Acc : 31|16@0- (0.01,0) [-100,100] "m/s^2" EON
+BO_ 5683 Vertical_Acc: 8 07E0,07E8
+ SG_ Vertical_Acc : 31|16@0- (0.002,0) [-100,100] "m/s^2" EON
+BO_ 5583 Vertical_Acc_Raw_Value: 8 07E0,07E8
+ SG_ Vertical_Acc_Raw_Value : 31|16@0- (0.001,0) [-100,100] "" EON
+BO_ 5584 Tilt_Angular_Acc_Raw_Value: 8 07E0,07E8
+ SG_ Tilt_Angular_Acc_Raw_Value : 31|16@0- (0.01,0) [-100,100] "" EON
+BO_ 14339 Auto_Trans_Brake_Pressure: 8 07E1,07E9
+ SG_ Auto_Trans_Brake_Pressure : 31|16@0- (0.01,0) [0,100] "" EON
+BO_ 14340 Auto_Trans_Accelerator: 8 07E1,07E9
+ SG_ Auto_Trans_Accelerator : 31|8@0+ (1,0) [0,100] "" EON
+BO_ 6162 Steering_Angle: 8 0712,077C
+ SG_ Steering_Angle : 31|16@0- (0.1,0) [-100,100] "" EON

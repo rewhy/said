@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Sensor.showSensor"
+    tools:showIn="@layout/activity_show_sensor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <cn.uprogrammer.sensordatacollect.DashBoard.DashboardView
+                android:id="@+id/dashboard_view_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bigSliceCount="10"
+                app:headerRadius="50dp"
+                app:headerTitle="ACC-X"
+                app:maxValue="20"
+                app:measureTextSize="10sp"
+                app:minValue="-20"
+                app:radius="110dp"
+                app:realTimeValue="0"
+                app:startAngle="210"
+                app:stripeWidth="30dp"
+                app:sweepAngle="120" />
+
+            <cn.uprogrammer.sensordatacollect.DashBoard.DashboardView
+                android:id="@+id/dashboard_view_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bigSliceCount="10"
+                app:headerRadius="50dp"
+                app:headerTitle="ACC-Y"
+                app:maxValue="20"
+                app:measureTextSize="10sp"
+                app:minValue="-20"
+                app:radius="110dp"
+                app:realTimeValue="0"
+                app:startAngle="210"
+                app:stripeWidth="30dp"
+                app:sweepAngle="120" />
+
+            <cn.uprogrammer.sensordatacollect.DashBoard.DashboardView
+                android:id="@+id/dashboard_view_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bigSliceCount="10"
+                app:headerRadius="50dp"
+                app:headerTitle="ACC-Z"
+                app:maxValue="20"
+                app:measureTextSize="10sp"
+                app:minValue="-20"
+                app:radius="110dp"
+                app:realTimeValue="0"
+                app:startAngle="210"
+                app:stripeWidth="30dp"
+                app:sweepAngle="120" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+
+            <cn.uprogrammer.sensordatacollect.DashBoard.DashboardView
+                android:id="@+id/dashboard_view_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bigSliceCount="10"
+                app:headerRadius="50dp"
+                app:headerTitle="GYRO-X"
+                app:maxValue="25"
+                app:measureTextSize="10sp"
+                app:minValue="-25"
+                app:radius="110dp"
+                app:realTimeValue="0"
+                app:startAngle="210"
+                app:stripeWidth="30dp"
+                app:sweepAngle="120" />
+
+            <cn.uprogrammer.sensordatacollect.DashBoard.DashboardView
+                android:id="@+id/dashboard_view_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bigSliceCount="10"
+                app:headerRadius="50dp"
+                app:headerTitle="GYRO-X"
+                app:maxValue="25"
+                app:measureTextSize="10sp"
+                app:minValue="-25"
+                app:radius="110dp"
+                app:realTimeValue="0"
+                app:startAngle="210"
+                app:stripeWidth="30dp"
+                app:sweepAngle="120" />
+
+            <cn.uprogrammer.sensordatacollect.DashBoard.DashboardView
+                android:id="@+id/dashboard_view_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:bigSliceCount="10"
+                app:headerRadius="50dp"
+                app:headerTitle="GYRO-Z"
+                app:maxValue="25"
+                app:measureTextSize="10sp"
+                app:minValue="-25"
+                app:radius="110dp"
+                app:realTimeValue="0"
+                app:startAngle="210"
+                app:stripeWidth="30dp"
+                app:sweepAngle="120" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

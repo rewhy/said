@@ -1,0 +1,17 @@
+87 conditions:1 2,(1,1,0x01) states:2 1,(3,1,0) 2,(3,1,0) decision:0
+
+Overall
+#1 service_id(sid)
+#2 conditions_length - n(>=0)
+----#(+n) specific condition
+#3 states_length -m(m>=0)
+----#(+m) specific state
+#4 decision
+
+--
+specific condition
+bit,(symbol,number of parameters(NOP),values of parameters(VOP));
+
+--
+specific states
+state id,(symol,NOP.VOP);

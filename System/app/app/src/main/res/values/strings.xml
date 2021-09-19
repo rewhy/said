@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sensor Data Collect</string>
+    <string name="hello">Hello World, JPush!</string>
+    <string name="tag_hint">Tag can be number, alphabet, underscore, Chinese. Use , to split many tags.</string>
+    <string name="alias_hint">Alias can be number, alphabet, underscore, Chinese.</string>
+    <string name="mobilenumber_hint">The phone number can only start with a "+" or a number,other can only contain "-" and Numbers</string>
+    <string name="style_hint">style should be number</string>
+    <string name="error_style_empty">style cannot be empty</string>
+    <string name="error_alias_empty">alias cannot be empty</string>
+    <string name="error_tag_empty">tag cannot be empty</string>
+    <string name="error_tag_gs_empty">Invalid format</string>
+    <string name="mobilenumber_empty_guide">will clear last set phone number</string>
+    <string name="error_network">Failed to init due to network exception.</string>
+    <string name="logining">Running in background. Please see log.</string>
+    <string name="setting_su">Succeed to set</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_data_map">DataMap</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_state_view">StateView</string>
+    <string name="title_activity_dash_view">DashView</string>
+    <string name="title_activity_gpsview">GPSView</string>
+
+    <!-- Baidu -->
+    <string name="startlocation">开始定位</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="startforeground">开始后台定位</string>
+    <string name="stopforeground">停止后台定位</string>
+    <string name="error_code_desc">错误码说明</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="test_string">m/s&lt;sup&gt;&lt;small&gt;2&lt;/small&gt;&lt;/sup&gt;</string>
+    <string name="title_activity_ui">UI</string>
+    <string name="title_activity_show_sensor">showSensor</string>
+    <string name="title_activity_state_ui">stateUI</string>
+</resources>

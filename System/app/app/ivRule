@@ -1,0 +1,2 @@
+Time:3000 Number:1 [Rule:RPM,203000]
+Time:30000 Number:2 [Rule:RPM,200] [Rule:Vehicle_Speed,110]

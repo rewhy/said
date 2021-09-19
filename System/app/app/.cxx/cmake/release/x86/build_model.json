@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect",
+      "sdkFolder": "/Users/zhaokaifa/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app",
+      "makeFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/.cxx",
+      "cxxFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx",
+      "ndkFolder": "/Users/zhaokaifa/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/release/x86",
+  "jsonFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/release/x86/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release/x86",
+  "objFolder": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/build/intermediates/cmake/release/obj/x86",
+  "buildCommandFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/release/x86/build_command.txt",
+  "buildOutputFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/release/x86/build_output.txt",
+  "modelOutputFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/release/x86/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release/x86/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release/x86/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release/x86/build_generation_state.json",
+    "cacheKeyFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release/x86/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release/x86/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release/x86/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cxx/release/x86/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/release/x86/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/release/x86/compile_commands.json"
+}

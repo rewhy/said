@@ -1,0 +1,15 @@
+Executable : /Users/zhaokaifa/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app
+-B/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/debug/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/build/intermediates/cmake/debug/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/zhaokaifa/Library/Android/sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=/Users/zhaokaifa/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/zhaokaifa/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

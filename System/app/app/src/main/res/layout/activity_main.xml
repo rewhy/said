@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:icon="@mipmap/newcon"
+    android:orientation="vertical"
+    tools:context="MainActivity"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+
+    <TextView
+        android:id="@+id/CANcmd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/bn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/bn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop" />
+
+    <Button
+        android:id="@+id/bn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input File Name:" />
+
+    <EditText
+        android:id="@+id/filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions" />
+
+    <TextView
+        android:id="@+id/etState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/State"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:text="state" />
+
+    <Button
+        android:id="@+id/Speed"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:text="speed" />
+
+    <Button
+        android:id="@+id/DashBoard"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:text="DashBoard" />
+
+    <Button
+        android:id="@+id/GPS"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:text="GPS" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4sp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/action2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:text="解中控锁" />
+
+        <Button
+            android:id="@+id/action3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:text="上中控锁" />
+
+        <Button
+            android:id="@+id/action4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:text="开窗" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4sp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/action5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:text="关窗" />
+
+        <Button
+            android:id="@+id/action6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:text="关后视镜" />
+
+        <Button
+            android:id="@+id/action7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:text="开后视镜" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

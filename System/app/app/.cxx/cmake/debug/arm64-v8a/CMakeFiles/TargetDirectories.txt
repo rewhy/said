@@ -1,0 +1,3 @@
+/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/zhaokaifa/OneDrive - The Hong Kong Polytechnic University/Android/newCarSensor_V2_1_1_UDSMoel/newCarSensor/newCarSensor/SensorDataCollect/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir

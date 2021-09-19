@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.uprogrammer.sensordatacollect.ScrollingActivity">
+    <item
+        android:id="@+id/Sensor_SHOW"
+        android:orderInCategory="100"
+        android:title="Sensor"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/GPS_SHOW"
+        android:orderInCategory="100"
+        android:title="GPS"
+        app:showAsAction="never" />
+
+</menu>
