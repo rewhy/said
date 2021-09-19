@@ -6,17 +6,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:icon="@mipmap/newcon"
     android:orientation="vertical"
     tools:context="MainActivity"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+    android:icon="@mipmap/newcon">
+
 
 
     <TextView
-        android:id="@+id/CANcmd"
+        android:id="@+id/etDrivingState"
         android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etWave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etSwer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etSidesl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etFastU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etTwr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/etSuddenB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/calibration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calibration" />
 
     <Button
         android:id="@+id/bn1"
@@ -34,112 +69,27 @@
         android:id="@+id/bn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Input File Name:" />
+        android:text="请输入文件名：" />
 
     <EditText
         android:id="@+id/filename"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textNoSuggestions" />
+        android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/etState"
+        android:id="@+id/etLinearAcc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/State"
-        android:layout_width="244dp"
-        android:layout_height="wrap_content"
-        android:text="state" />
-
-    <Button
-        android:id="@+id/Speed"
-        android:layout_width="244dp"
-        android:layout_height="wrap_content"
-        android:text="speed" />
-
-    <Button
-        android:id="@+id/DashBoard"
-        android:layout_width="244dp"
-        android:layout_height="wrap_content"
-        android:text="DashBoard" />
-
-    <Button
-        android:id="@+id/GPS"
-        android:layout_width="244dp"
-        android:layout_height="wrap_content"
-        android:text="GPS" />
-
-    <LinearLayout
+    <TextView
+        android:id="@+id/etGyro"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="4sp"
-        android:orientation="horizontal"
-        android:weightSum="3">
+        android:layout_height="wrap_content" />
 
-
-        <Button
-            android:id="@+id/action2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4sp"
-            android:layout_weight="1"
-            android:text="解中控锁" />
-
-        <Button
-            android:id="@+id/action3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4sp"
-            android:layout_weight="1"
-            android:text="上中控锁" />
-
-        <Button
-            android:id="@+id/action4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4sp"
-            android:layout_weight="1"
-            android:text="开窗" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
+    <TextView
+        android:id="@+id/etTimeGap"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="4sp"
-        android:orientation="horizontal"
-        android:weightSum="3">
-
-
-        <Button
-            android:id="@+id/action5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4sp"
-            android:layout_weight="1"
-            android:text="关窗" />
-
-        <Button
-            android:id="@+id/action6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4sp"
-            android:layout_weight="1"
-            android:text="关后视镜" />
-
-        <Button
-            android:id="@+id/action7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4sp"
-            android:layout_weight="1"
-            android:text="开后视镜" />
-
-
-    </LinearLayout>
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>

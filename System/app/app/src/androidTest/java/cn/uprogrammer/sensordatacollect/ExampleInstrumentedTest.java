@@ -1,4 +1,4 @@
-package cn.uprogrammer.sensordatacollect;
+package cn.uprogrammer.sensordatacollect_udp2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
