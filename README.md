@@ -3,6 +3,8 @@ Defense Framework against Vehicular Message Injection Attacks
 
 The system directory contains the source code of SAID implementation, the experiment directory contains used scripts for the evaluations, and the data directory contains the data collected from the real vehicles.
 
+<font color=red> TODO: how to use these modules </font>
+
 ## System
 The implementation of SAID includes three major modules, the Android app, the native library, the configurations, and the customized Android system, which are implemented in the directories app, native-lib, config, and kernel_imx_mpu6050, respectively.
 
