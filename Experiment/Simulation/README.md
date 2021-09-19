@@ -1,1 +1,1 @@
-This folder contains the co-simulation model of CarSim and Simulink ```CarSim model.cpar```, ```SAID.slx``` and ```simfile.sim```. The ```CarSim outputs``` folder contains the simulation outputs, and ```figure``` folder contains the scripts for the result visulizations.
+This folder contains the co-simulation model of CarSim and Simulink ```CarSim model.cpar```, ```SAID.slx``` and ```simfile.sim```. The ```CarSim outputs``` folder contains the simulation outputs, and ```figure``` folder contains the matlab scripts for the result visulizations.

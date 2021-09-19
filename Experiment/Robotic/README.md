@@ -1,0 +1,1 @@
+This folder contains the experiment data of the real robotic ground vehicles, i.e. NanoCar, JetRacer and ScoutMini.
