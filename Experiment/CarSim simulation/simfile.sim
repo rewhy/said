@@ -1,0 +1,27 @@
+SIMFILE
+
+SET_MACRO $(ROOT_FILE_NAME)$ Run_b2f09fee-9622-452d-b7e9-9cb4919fc840
+SET_MACRO $(OUTPUT_PATH)$ D:\PolyU\CarSimData\CarSimCargo\Documents\CarSim_Data\Results
+SET_MACRO $(WORK_DIR)$ D:\PolyU\CarSimData\CarSimCargo\Documents\CarSim_Data\
+SET_MACRO $(OUTPUT_FILE_PREFIX)$ $(WORK_DIR)$Results\Run_b2f09fee-9622-452d-b7e9-9cb4919fc840\LastRun
+
+FILEBASE $(OUTPUT_FILE_PREFIX)$
+INPUT $(WORK_DIR)$Results\$(ROOT_FILE_NAME)$\Run_all.par
+INPUTARCHIVE $(OUTPUT_FILE_PREFIX)$_all.par
+ECHO $(OUTPUT_FILE_PREFIX)$_echo.par
+FINAL $(OUTPUT_FILE_PREFIX)$_end.par
+LOGFILE $(OUTPUT_FILE_PREFIX)$_log.txt
+ERDFILE $(OUTPUT_FILE_PREFIX)$.vs
+PROGDIR D:\Program Files (x86)\CarSim2019.0_Prog\
+DATADIR D:\PolyU\CarSimData\CarSimCargo\Documents\CarSim_Data\
+GUI_REFRESH_V CarSim_RefreshEvent_22792
+RESOURCEDIR D:\Program Files (x86)\CarSim2019.0_Prog\\Resources\
+PRODUCT_ID CarSim
+PRODUCT_VER 2019.0
+ANIFILE D:\PolyU\CarSimData\CarSimCargo\Documents\CarSim_Data\runs\animator.par
+VEHICLE_CODE i_i
+EXT_MODEL_STEP 0.00050000
+PORTS_IMP 1,6
+PORTS_EXP 1,12
+
+END
