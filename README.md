@@ -1,8 +1,7 @@
-# SAID (State-Aware Injection Defense)
-Defense Framework against Vehicular Message Injection Attacks
+# SAID (State-aware Automotive Injection Defense)
+SAID is a state-aware defense framework against the message injection attacks launched from the out-vehicle entities, such as the OBD dongles, and it is deployed the interaction interfaces between the in-vehicle network and the out-vehicle entities, such as the OBD port.
 
-The system directory contains the source code of SAID implementation, the experiment directory contains used scripts for the evaluations, and the data directory contains the data collected from the real vehicles.
-
+The system directory contains the source code of SAID implementation, and the experiment directory contains used scripts and real-road data for the evaluations.
 
 ## System
 The implementation of SAID includes three major modules, the Android app, the native library, the configurations, and the customized Android system, which are implemented in the directories app, native-lib, config, and kernel_imx_mpu6050, respectively. 
